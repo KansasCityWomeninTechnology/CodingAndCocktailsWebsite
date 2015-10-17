@@ -44,6 +44,11 @@ gulp.task('html', ['styles', 'scripts'], function () {
         .pipe($.size());
 });
 
+gulp.task('CNAME', function() {
+    return gulp.src('CNAME')
+        .pipe(gulp.dest('dist'))
+});
+
 gulp.task('images', function () {
     return gulp.src('app/images/**/*')
         .pipe($.imagemin({
@@ -72,7 +77,7 @@ gulp.task('clean', function () {
     return gulp.src(['app/styles/main.css', 'dist'], { read: false }).pipe($.clean());
 });
 
-gulp.task('build', ['html', 'images', 'fonts']);
+gulp.task('build', ['html', 'images', 'fonts', 'CNAME']);
 
 gulp.task('default', ['clean'], function () {
     gulp.start('build');

@@ -111,7 +111,7 @@ section {
     }
 }
 
-#cocktails {
+#cocktails, #session2 {
     background: $plum;
     padding: 150px 0px 100px 0px;
     border-top: solid 10px $light-plum;
@@ -121,7 +121,7 @@ section {
     }
 }
 
-#mentors {
+#mentors, #session3 {
     background: $light-purple;
     text-align: center;
     padding: 150px 0px 100px 0px;
@@ -129,7 +129,7 @@ section {
     border-bottom: solid 10px $dark-purple;
     .mentor {
         img {
-           width: 50%; 
+           width: 50%;
         }
     }
     h1 {
@@ -137,7 +137,7 @@ section {
     }
 }
 
-#signup {
+#signup, #session4 {
     background: $dark-olive;
     padding: 150px 0px 100px 0px;
     border-top: solid 10px $light-olive;
@@ -170,6 +170,20 @@ section {
     min-height: 50px;
 }
 
+.margin-bottom {
+    margin-bottom: 50px;
+}
+
+.map {
+    h5 {
+        border-bottom: 10px;
+    }
+    img {
+        margin-top: 0px;
+        height: 70px;
+        width: auto;
+    }
+}
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
