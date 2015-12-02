@@ -104,7 +104,7 @@ module.exports = function makeWebpackConfig (options) {
       }, {
          // ASSET LOADER
          // Reference: https://github.com/webpack/file-loader
-         test: /\.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+         test: /\.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot|ico)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
          loader: 'file?name=./assets/[hash].[ext]'
       }, {
          // HTML LOADER
@@ -112,6 +112,10 @@ module.exports = function makeWebpackConfig (options) {
          // Allow loading html through js
          test: /\.html$/,
          loader: 'raw'
+      }, {
+         test: /\.pdf$|pdf\.worker\.js$/,
+          //loader: "url-loader"
+         loader: 'file?name=./assets/[hash].[ext]'
       }, {
          test: /\.json$/,
          loader: 'json-loader'
@@ -172,6 +176,7 @@ module.exports = function makeWebpackConfig (options) {
             filename: 'index.html',
             template: './src/client/index.html',
             inject: 'body',
+            //favicon: './src/client/assets/favicon.ico',
             minify: {
                collapseWhitespace: true
             }
@@ -185,6 +190,7 @@ module.exports = function makeWebpackConfig (options) {
             filename: 'index.html',
             template: './src/client/index.html',
             inject: 'body'
+            //favicon: './src/client/assets/favicon.ico'
          })
       )
    }

@@ -6,7 +6,8 @@ function homeCtrl() {
    // hvm.venue = {
    //    name: 'The Nerdery',
    //    img: require('../../assets/images/logos/Nerdery-Logo-large.png'),
-   //    url: 'http://nerdery.com'
+   //    url: 'http://nerdery.com',
+   //    address: '100 E 7 St #300, Kansas City, MO 64106'
    // }
    // hvm.map = { 
    //    center: { 
@@ -26,7 +27,8 @@ function homeCtrl() {
     hvm.venue = {
       name: 'VML',
       img: require('../../assets/images/logos/VML-logo.png'),
-      url: 'http://vml.com'
+      url: 'http://vml.com',
+      address: '250 Richards Rd, Kansas City, MO 64116'
    }
    hvm.map = { 
       center: { 
