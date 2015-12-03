@@ -5,7 +5,7 @@
     "lint": "jshint src/client/app/*.js",
     "build": "webpack",
     "watch": "nodemon -e js,html,less -w src/client -x 'npm run build'",
-    "deploy": "./node_modules/.bin/webpack --config webpack.build.js && node server.js",
+    "deploy": "./node_modules/.bin/webpack --config webpack.build.js",
     "start": "./node_modules/.bin/webpack && node server.js",
     "postinstall": "npm run deploy"
   },
