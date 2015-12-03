@@ -6,8 +6,8 @@
     "build": "webpack",
     "watch": "nodemon -e js,html,less -w src/client -x 'npm run build'",
     "deploy": "./node_modules/.bin/webpack --config webpack.build.js && node server.js",
-    "start": "node server.js",
-    "serve": "node server.js"
+    "start": "./node_modules/.bin/webpack && node server.js",
+    "postinstall": "npm run deploy"
   },
   "dependencies": {
     "angular-filter": "^0.5.8",
