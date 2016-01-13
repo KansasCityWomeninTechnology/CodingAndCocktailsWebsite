@@ -26,7 +26,8 @@ function mentors() {
 
 function signup() {
    return {
-      template: require('./partials/signup.html')
+      template: require('./partials/signup.html'),
+      controller: 'topicCtrl as tvm'
    }
 }
 

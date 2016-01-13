@@ -34,7 +34,16 @@ function sessionsCtrl() {
          button: 'Download Worksheet',
          url: require('../../worksheets/Session4Worksheet.pdf')
       }] 
-   }]
+   }, {
+      title: 'Introduction to HTML & CSS',
+      description: 'This session covers HTML & CSS basics.',
+      date: '01/09/2016',
+      links: [{
+         button: 'Download Worksheet',
+         url: require('../../worksheets/Session4Worksheet.pdf')
+      }] 
+   }
+   ]
 }
 
 export default angular.module('sessions.controllers', [])
