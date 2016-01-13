@@ -180,10 +180,6 @@ function topicCtrl () {
    }]
 }
 
-console.log(topicCtrl);
-
-
-
 export default angular.module('home.controllers', [])
    .controller('homeCtrl', homeCtrl)
    .controller('codeCtrl', codeCtrl)

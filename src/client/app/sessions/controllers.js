@@ -19,8 +19,8 @@ function sessionsCtrl() {
          url: require('../../worksheets/Session2Worksheet.pdf')
       }] 
    }, {
-      title: 'Intro to Web Conceps',
-      description: 'Last session we got familiar with the command line and installing tools to help us build websites. This session we’re going to create our own blogs using a tool called Jekyll.​',
+      title: 'Intro to Web Concepts',
+      description: 'This session covers the fundamentals of web development.',
       date: '08/08/2015',
       links: [{
          button: 'View Presentation',
@@ -33,6 +33,10 @@ function sessionsCtrl() {
       links: [{
          button: 'Download Worksheet',
          url: require('../../worksheets/Session4Worksheet.pdf')
+      },
+      {
+         button: 'View Presentation',
+         url: 'http://kansascitywomenintechnology.github.io/SettingUpYourDevEnvironment/#/'
       }] 
    }, {
       title: 'Introduction to HTML & CSS',
@@ -40,7 +44,11 @@ function sessionsCtrl() {
       date: '01/09/2016',
       links: [{
          button: 'Download Worksheet',
-         url: require('../../worksheets/Session4Worksheet.pdf')
+         url: require('../../worksheets/Session5Worksheet.pdf')
+      },
+      {
+         button: 'View Presentation',
+         url: 'http://kansascitywomenintechnology.github.io/IntroToHTMLAndCSS/#/'
       }] 
    }
    ]
