@@ -5,7 +5,7 @@ function homeCtrl() {
    //The Nerdery
    hvm.venue = {
       name: 'The Nerdery',
-      img: require('../../assets/images/logos/Nerdery-Logo-large.png'),
+      img: require('../../assets/images/logos/Nerdery-Logo-Large.png'),
       url: 'http://nerdery.com',
       address: '100 E 7 St #300, Kansas City, MO 64106'
    }
