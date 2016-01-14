@@ -230,5 +230,7 @@ module.exports = function makeWebpackConfig (options) {
     }
   };
 
+  console.log('config:' + JSON.stringify(config));
+
   return config;
 };

@@ -11,6 +11,8 @@ export default {
       });
 
       app.get('*', function(req, res) {
+         console.log('dir:'+ dir);
+         console.log('__dirname:' + __dirname);
          res.sendFile(dir + '/public/index.html');
       });
 
