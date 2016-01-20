@@ -1,3 +1,9 @@
+function navbar() {
+   return {
+      template: require('./partials/navbar.html')
+   }
+}
+
 function hero() {
    return {
       template: require('./partials/hero.html')
@@ -38,6 +44,7 @@ function contact() {
 }
 
 export default angular.module('home.directives', [])
+   .directive('navbar', navbar)
    .directive('hero', hero)
    .directive('thecode', thecode)
    .directive('cocktails', cocktails)

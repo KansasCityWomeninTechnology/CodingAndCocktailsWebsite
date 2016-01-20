@@ -3,42 +3,6 @@
 function sessionsCtrl() {
    let svm = this;
    svm.sessions = [{
-      title: 'Intro to Modern Web Apps with Yeoman',
-      description: 'To create the web applications of today, we have to get together the tools we need to build them. HTML, CSS, and JavaScript are the basic building blocks of web pages; in this session you’ll learn to get the most out of them using these tools.',
-      date: '04/11/2015',
-      links: [{
-         button: 'Download Worksheet',
-         url: require('../../worksheets/Session1Worksheet.pdf')
-      }] 
-   }, {
-      title: 'Build a Blog with Jekyll',
-      description: 'Last session we got familiar with the command line and installing tools to help us build websites. This session we’re going to create our own blogs using a tool called Jekyll.​',
-      date: '06/13/2015',
-      links: [{
-         button: 'Download Worksheet',
-         url: require('../../worksheets/Session2Worksheet.pdf')
-      }] 
-   }, {
-      title: 'Intro to Web Concepts',
-      description: 'This session covers the fundamentals of web development.',
-      date: '08/08/2015',
-      links: [{
-         button: 'View Presentation',
-         url: 'http://kansascitywomenintechnology.github.io/IntroToWebConcepts/'
-      }] 
-   }, {
-      title: 'Setting up Your Dev Environment',
-      description: 'This session covers how to set up your development environment and learning tools and techniques to help your workflow.',
-      date: '10/10/2015',
-      links: [{
-         button: 'Download Worksheet',
-         url: require('../../worksheets/Session4Worksheet.pdf')
-      },
-      {
-         button: 'View Presentation',
-         url: 'http://kansascitywomenintechnology.github.io/SettingUpYourDevEnvironment/#/'
-      }] 
-   }, {
       title: 'Introduction to HTML & CSS',
       description: 'This session covers HTML & CSS basics.',
       date: '01/09/2016',
@@ -50,7 +14,43 @@ function sessionsCtrl() {
          button: 'View Presentation',
          url: 'http://kansascitywomenintechnology.github.io/IntroToHTMLAndCSS/#/'
       }] 
-   }
+      }, {
+      title: 'Setting up Your Dev Environment',
+      description: 'This session covers how to set up your development environment and learning tools and techniques to help your workflow.',
+      date: '10/10/2015',
+      links: [{
+         button: 'Download Worksheet',
+         url: require('../../worksheets/Session4Worksheet.pdf')
+      },
+      {
+         button: 'View Presentation',
+         url: 'http://kansascitywomenintechnology.github.io/SettingUpYourDevEnvironment/#/'
+      }] 
+      }, {
+      title: 'Intro to Web Concepts',
+      description: 'This session covers the fundamentals of web development.',
+      date: '08/08/2015',
+      links: [{
+         button: 'View Presentation',
+         url: 'http://kansascitywomenintechnology.github.io/IntroToWebConcepts/'
+      }] 
+      },  {
+      title: 'Build a Blog with Jekyll',
+      description: 'Last session we got familiar with the command line and installing tools to help us build websites. This session we’re going to create our own blogs using a tool called Jekyll.​',
+      date: '06/13/2015',
+      links: [{
+         button: 'Download Worksheet',
+         url: require('../../worksheets/Session2Worksheet.pdf')
+      }] 
+      }, {
+      title: 'Intro to Modern Web Apps with Yeoman',
+      description: 'To create the web applications of today, we have to get together the tools we need to build them. HTML, CSS, and JavaScript are the basic building blocks of web pages; in this session you’ll learn to get the most out of them using these tools.',
+      date: '04/11/2015',
+      links: [{
+         button: 'Download Worksheet',
+         url: require('../../worksheets/Session1Worksheet.pdf')
+      }] 
+      }
    ]
 }
 
