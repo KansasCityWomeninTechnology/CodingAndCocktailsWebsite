@@ -3,6 +3,25 @@
 function sessionsCtrl() {
    let svm = this;
    svm.sessions = [{
+      title: 'Coding & Cocktails - The Tools',
+      description: 'This is a reference for the developer tools we will be using in class and how to configure them.',
+      links: [{
+         button: 'Download Worksheet',
+         url: require('../../worksheets/TheTools.pdf')
+      }] 
+      }, {
+      title: 'Introduction to the Command Line',
+      description: 'This session covers what we use the command line for, why we use the command line along with some common commands.',
+      date: '02/13/2016',
+      links: [{
+         button: 'Download Worksheet',
+         url: require('../../worksheets/Session6Worksheet.pdf')
+      },
+      {
+         button: 'View Presentation',
+         url: 'http://kansascitywomenintechnology.github.io/CommandLine'
+      }] 
+      }, {
       title: 'Introduction to HTML & CSS',
       description: 'This session covers HTML & CSS basics.',
       date: '01/09/2016',
