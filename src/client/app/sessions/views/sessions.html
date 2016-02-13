@@ -1,6 +1,6 @@
 <sessionnav></sessionnav>
 <hero></hero>
-<section ng-repeat="session in svm.sessions" id="session{{$index + 1}}">
+<section ng-repeat="session in svm.sessions" id="{{session.id}}">
     <div class="container">
         <div class="col-md-4">
             <a class="btn btn-default" ng-repeat="link in session.links" href="{{link.url}}" target="_blank" >{{link.button}}</a>

@@ -7,7 +7,7 @@ function homeCtrl() {
       name: 'The Nerdery',
       img: require('../../assets/images/logos/Nerdery-Logo-Large.png'),
       url: 'http://nerdery.com',
-      address: '100 E 7 St #300, Kansas City, MO 64106'
+      address: '100 E 7 St #401, Kansas City, MO 64106'
    }
    hvm.map = { 
       center: { 
