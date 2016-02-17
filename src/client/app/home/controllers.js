@@ -99,6 +99,11 @@ function mentorCtrl() {
    }]
 
    mvm.mentors = [{
+      name: 'Kelsey Leftwich',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/kelsey.jpg'),
+      twitter: 'kelseyleftwich'
+   }, {
       name: 'Sara Heins',
       title: 'Mentor',
       img: require('../../assets/images/mentors/sara.jpg'),
@@ -132,7 +137,7 @@ function mentorCtrl() {
       name: 'Michelle Tuason',
       title: 'Mentor',
       img: require('../../assets/images/mentors/michelle.png'),
-      twitter: ''
+      twitter: 'codecocktailskc'
    }]
 }
 
