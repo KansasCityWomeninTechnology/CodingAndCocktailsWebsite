@@ -99,6 +99,11 @@ function mentorCtrl() {
    }]
 
    mvm.mentors = [{
+      name: 'Ashley Sullins',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/ashley.jpeg'),
+      twitter: 'ashleycc87'
+   }, {
       name: 'Kelsey Leftwich',
       title: 'Mentor',
       img: require('../../assets/images/mentors/kelsey.jpg'),
@@ -123,11 +128,6 @@ function mentorCtrl() {
       title: 'Mentor',
       img: require('../../assets/images/mentors/kayla.jpeg'),
       twitter: 'bellafaith'
-   }, {
-      name: 'Amy Kurtz',
-      title: 'Mentor',
-      img: require('../../assets/images/mentors/amy.jpg'),
-      twitter: 'amyontheweb'
    }, {
       name: 'Thuy Copeland',
       title: 'Mentor',
