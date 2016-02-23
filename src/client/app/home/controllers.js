@@ -173,10 +173,10 @@ function topicCtrl () {
       topic: 'Introduction to Node: Server-side javascript'
    }, {
       month: 'October 8th',
-      topic: 'Introduction to CSS Compilers'
+      topic: 'Introduction to REST'
    }, {
       month: 'November 12th',
-      topic: 'Introduction to REST'
+      topic: 'Basic Website Deployment'
    }]
 }
 
