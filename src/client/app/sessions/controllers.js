@@ -11,6 +11,19 @@ function sessionsCtrl() {
          url: require('../../worksheets/TheTools.pdf')
       }] 
       }, {
+      title: 'Introduction to Version Control',
+      description: 'This session covers version control using Git and why it is so important as well as exploring GitHub.',
+      date: '03/12/2016',
+      id: 'versionControl',
+      links: [{
+         button: 'Download Worksheet',
+         url: require('../../worksheets/Session7Worksheet.pdf')
+      },
+      {
+         button: 'View Presentation',
+         url: 'http://kansascitywomenintechnology.github.io/GitBasics'
+      }] 
+      }, {
       title: 'Introduction to the Command Line',
       description: 'This session covers what we use the command line for, why we use the command line along with some common commands.',
       date: '02/13/2016',
