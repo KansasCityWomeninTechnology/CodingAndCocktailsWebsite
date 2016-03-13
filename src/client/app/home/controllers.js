@@ -3,47 +3,47 @@
 function homeCtrl() {
    let hvm = this;
    //The Nerdery
-   // hvm.venue = {
-   //    name: 'The Nerdery',
-   //    img: require('../../assets/images/logos/Nerdery-Logo-Large.png'),
-   //    url: 'http://nerdery.com',
-   //    address: '100 E 7 St #401, Kansas City, MO 64106'
-   // }
-   // hvm.map = { 
-   //    center: { 
-   //       latitude: 39.105692, 
-   //       longitude: -94.581287 
-   //    }, 
-   //    zoom: 15,
-   //    marker: {
-   //       id:0,
-   //       coords: {
-   //          latitude: 39.105692,
-   //          longitude: -94.581287
-   //       }
-   //    }
-   // };
-   //VML
-    hvm.venue = {
-      name: 'VML',
-      img: require('../../assets/images/logos/VML-logo.png'),
-      url: 'http://vml.com',
-      address: '250 Richards Rd, Kansas City, MO 64116'
+   hvm.venue = {
+      name: 'The Nerdery',
+      img: require('../../assets/images/logos/Nerdery-logo.png'),
+      url: 'http://nerdery.com',
+      address: '100 E 7 St #401, Kansas City, MO 64106'
    }
    hvm.map = { 
       center: { 
-         latitude: 39.1206253, 
-         longitude: -94.5927612 
+         latitude: 39.105692, 
+         longitude: -94.581287 
       }, 
       zoom: 15,
       marker: {
          id:0,
          coords: {
-            latitude: 39.1206253,
-            longitude: -94.5927612
+            latitude: 39.105692,
+            longitude: -94.581287
          }
       }
    };
+   //VML
+   //  hvm.venue = {
+   //    name: 'VML',
+   //    img: require('../../assets/images/logos/VML-logo.png'),
+   //    url: 'http://vml.com',
+   //    address: '250 Richards Rd, Kansas City, MO 64116'
+   // }
+   // hvm.map = { 
+   //    center: { 
+   //       latitude: 39.1206253, 
+   //       longitude: -94.5927612 
+   //    }, 
+   //    zoom: 15,
+   //    marker: {
+   //       id:0,
+   //       coords: {
+   //          latitude: 39.1206253,
+   //          longitude: -94.5927612
+   //       }
+   //    }
+   // };
 
 }
 
