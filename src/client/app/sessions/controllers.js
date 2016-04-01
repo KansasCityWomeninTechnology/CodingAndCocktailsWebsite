@@ -11,6 +11,19 @@ function sessionsCtrl() {
          url: require('../../worksheets/TheTools.pdf')
       }] 
       }, {
+      title: 'Introduction to CSS Compilers',
+      description: 'This session covers CSS Compilers: what they are, how they work and how they help make your styling development easier.',
+      date: '04/09/2016',
+      id: 'cssCompilers',
+      links: [{
+         button: 'Download Worksheet',
+         url: require('../../worksheets/CSSCompilerWorksheet.pdf')
+      },
+      {
+         button: 'View Presentation',
+         url: 'http://kansascitywomenintechnology.github.io/CSSCompilers'
+      }] 
+      }, {
       title: 'Introduction to Version Control',
       description: 'This session covers version control using Git and why it is so important as well as exploring GitHub.',
       date: '03/12/2016',
