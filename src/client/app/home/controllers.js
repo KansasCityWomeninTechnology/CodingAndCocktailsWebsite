@@ -161,24 +161,26 @@ function topicCtrl () {
       topic: 'Introduction to JavaScript through jQuery'
    }, {
       month: 'June 11th',
-      topic: 'Introduction to NPM, Bower, Yeoman and Gulp'
+      topic: 'Review, Practice & Work Session'
    }, {
       month: 'July 9th',
-      topic: 'Introduction to Single Page Applications & frameworks'
+      topic: 'Introduction to NPM, Bower, Yeoman and Gulp'
    }, {
       month: 'August 13th',
-      topic: 'Introduction to front-end architecture'
+      topic: 'Introduction to Single Page Applications & frameworks'
    }, {
       month: 'September 10th',
-      topic: 'Introduction to Node: Server-side javascript'
+      topic: 'Introduction to front-end architecture'
    }, {
       month: 'October 8th',
-      topic: 'Introduction to REST'
+      topic: 'Introduction to Node: Server-side javascript'
    }, {
       month: 'November 12th',
-      topic: 'Basic Website Deployment'
+      topic: 'Introduction to REST'
    }]
 }
+
+//January 2017: Basic Website Deployment
 
 export default angular.module('home.controllers', [])
    .controller('homeCtrl', homeCtrl)
