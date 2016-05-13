@@ -11,6 +11,19 @@ function sessionsCtrl() {
          url: require('../../worksheets/TheTools.pdf')
       }] 
       }, {
+      title: 'Introduction to JavaScript using jQuery',
+      description: 'This session covers what Javascript and jQuery are, why they are important to front-end developers and how to incorporate them in our websites.',
+      date: '05/14/2016',
+      id: 'jQuery',
+      links: [{
+         button: 'Download Worksheet',
+         url: require('../../worksheets/jQueryWorksheet.pdf')
+      },
+      {
+         button: 'View Presentation',
+         url: 'http://kansascitywomenintechnology.github.io/jQueryIntro'
+      }] 
+      }, {
       title: 'Introduction to CSS Compilers',
       description: 'This session covers CSS Compilers: what they are, how they work and how they help make your styling development easier.',
       date: '04/09/2016',
