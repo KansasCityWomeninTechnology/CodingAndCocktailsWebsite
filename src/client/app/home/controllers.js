@@ -91,11 +91,21 @@ function mentorCtrl() {
       title: 'Co-Director',
       img: require('../../assets/images/mentors/tamarac.png'),
       twitter: 'Ceiligirl72'
+   },{
+      name: 'Kayla Hennegin',
+      title: 'Director of Curriculum',
+      img: require('../../assets/images/mentors/kayla.jpeg'),
+      twitter: 'bellafaith'
    }, {
       name: 'Jennifer Wadella',
       title: 'Founder',
       img: require('../../assets/images/mentors/jennifer.png'),
       twitter: 'likeOMGitsFEDAY'
+   }, {
+      name: 'Melissa Salazar',
+      title: 'Webmaster',
+      img: require('../../assets/images/mentors/msalazar.png'),
+      twitter: 'msalazarkc'
    }]
 
    mvm.mentors = [{
@@ -129,11 +139,6 @@ function mentorCtrl() {
       img: require('../../assets/images/mentors/katen.jpeg'),
       twitter: 'KateNielsenkate'
    }, {
-      name: 'Kayla Hennegin',
-      title: 'Mentor',
-      img: require('../../assets/images/mentors/kayla.jpeg'),
-      twitter: 'bellafaith'
-   }, {
       name: 'Thuy Copeland',
       title: 'Mentor',
       img: require('../../assets/images/mentors/thuyc.jpg'),
@@ -164,19 +169,19 @@ function topicCtrl () {
       topic: 'Review, Practice & Work Session'
    }, {
       month: 'July 9th',
-      topic: 'Introduction to NPM, Bower, Yeoman and Gulp'
+      topic: 'Programming Fundamentals'
    }, {
       month: 'August 13th',
-      topic: 'Introduction to Single Page Applications & frameworks'
+      topic: 'Introduction to NPM, Bower, Yeoman and Gulp'
    }, {
       month: 'September 10th',
-      topic: 'Introduction to front-end architecture'
+      topic: 'Introduction to Single Page Applications & Frameworks'
    }, {
       month: 'October 8th',
-      topic: 'Introduction to Node: Server-side javascript'
+      topic: 'Introduction to Front-End Architecture'
    }, {
       month: 'November 12th',
-      topic: 'Introduction to REST'
+      topic: 'Introduction to Node: Server-side JavaScript'
    }]
 }
 
