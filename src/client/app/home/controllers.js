@@ -91,7 +91,7 @@ function mentorCtrl() {
       title: 'Co-Director',
       img: require('../../assets/images/mentors/tamarac.png'),
       twitter: 'Ceiligirl72'
-   },{
+   }, {
       name: 'Kayla Hennegin',
       title: 'Director of Curriculum',
       img: require('../../assets/images/mentors/kayla.jpeg'),
@@ -138,6 +138,11 @@ function mentorCtrl() {
       title: 'Mentor',
       img: require('../../assets/images/mentors/katen.jpeg'),
       twitter: 'KateNielsenkate'
+   }, {
+      name: 'Amy Kurtz',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/amy.jpg'),
+      twitter: 'amyontheweb'
    }, {
       name: 'Thuy Copeland',
       title: 'Mentor',
