@@ -92,15 +92,15 @@ function mentorCtrl() {
       img: require('../../assets/images/mentors/tamarac.png'),
       twitter: 'Ceiligirl72'
    }, {
-      name: 'Kayla Hennegin',
-      title: 'Director of Curriculum',
-      img: require('../../assets/images/mentors/kayla.jpeg'),
-      twitter: 'bellafaith'
-   }, {
       name: 'Jennifer Wadella',
       title: 'Founder',
       img: require('../../assets/images/mentors/jennifer.png'),
       twitter: 'likeOMGitsFEDAY'
+   }, {
+      name: 'Kayla Hennegin',
+      title: 'Director of Curriculum',
+      img: require('../../assets/images/mentors/kayla.jpeg'),
+      twitter: 'bellafaith'
    }, {
       name: 'Melissa Salazar',
       title: 'Webmaster',
