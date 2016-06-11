@@ -11,6 +11,19 @@ function sessionsCtrl() {
          url: require('../../worksheets/TheTools.pdf')
       }] 
       }, {
+      title: 'Mid Year Review',
+      description: 'This session we take the time to solidify our understanding and practice what we have learned so far.',
+      date: '06/11/2016',
+      id: 'review',
+      links: [{
+         button: 'Download Worksheet',
+         url: require('../../worksheets/Session10Worksheet.pdf')
+      },
+      {
+         button: 'View Presentation',
+         url: 'http://kansascitywomenintechnology.github.io/MidYearReview'
+      }] 
+      }, {
       title: 'Introduction to JavaScript using jQuery',
       description: 'This session covers what Javascript and jQuery are, why they are important to front-end developers and how to incorporate them in our websites.',
       date: '05/14/2016',
