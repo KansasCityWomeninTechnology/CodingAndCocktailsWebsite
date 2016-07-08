@@ -109,6 +109,21 @@ function mentorCtrl() {
    }]
 
    mvm.mentors = [{
+      name: 'Heather Birdwell',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/heather.jpg'),
+      twitter: 'kcbusymom'
+   }, {
+      name: 'Sharyl Bressette',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/femalecodertocat.png'),
+      twitter: 'codecocktailskc'
+   }, {
+      name: 'Tatiana Alexenko',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/femalecodertocat.png'),
+      twitter: 'codecocktailskc'
+   }, {
       name: 'Gabi Dombrowski',
       title: 'Mentor',
       img: require('../../assets/images/mentors/gabi.jpg'),

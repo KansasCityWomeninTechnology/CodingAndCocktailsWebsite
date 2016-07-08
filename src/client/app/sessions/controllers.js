@@ -11,6 +11,18 @@ function sessionsCtrl() {
          url: require('../../worksheets/TheTools.pdf')
       }] 
       }, {
+      title: 'Programming Fundamentals',
+      description: 'This session is all about programming fundamentals such as variables, arrays, functions and more! The session is taught using the JavaScript programming language.',
+      id: 'programmingFundamentals',
+      links: [{
+         button: 'Download Worksheet',
+         url: require('../../worksheets/Session11Worksheet.pdf')
+      },
+      {
+         button: 'View Presentation',
+         url: 'http://kansascitywomenintechnology.github.io/JSProgrammingFundamentals'
+      }] 
+      }, {
       title: 'Mid Year Review',
       description: 'This session we take the time to solidify our understanding and practice what we have learned so far.',
       date: '06/11/2016',
