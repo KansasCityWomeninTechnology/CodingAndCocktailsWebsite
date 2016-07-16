@@ -192,16 +192,16 @@ function topicCtrl () {
       topic: 'Programming Fundamentals'
    }, {
       month: 'August 13th',
-      topic: 'Introduction to NPM, Bower, Yeoman and Gulp'
+      topic: 'Introduction to NPM and Bower'
    }, {
       month: 'September 10th',
-      topic: 'Introduction to Single Page Applications & Frameworks'
-   }, {
-      month: 'October 8th',
       topic: 'Introduction to Front-End Architecture'
    }, {
+      month: 'October 8th',
+      topic: 'TBD'
+   }, {
       month: 'November 12th',
-      topic: 'Introduction to Node: Server-side JavaScript'
+      topic: 'TBD'
    }]
 }
 
