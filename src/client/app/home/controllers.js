@@ -198,7 +198,7 @@ function topicCtrl () {
       topic: 'Introduction to Front-End Architecture'
    }, {
       month: 'October 8th',
-      topic: 'TBD'
+      topic: 'Introduction to Single Page Applications'
    }, {
       month: 'November 12th',
       topic: 'TBD'
