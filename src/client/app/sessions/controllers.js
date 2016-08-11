@@ -10,15 +10,26 @@ function sessionsCtrl() {
          button: 'Download Worksheet',
          url: require('../../worksheets/TheTools.pdf')
       }] 
-      }, {
+      },
+      {
+      title: 'npm and Bower',
+      description: 'This session is an introduction to node package manager and Bower, both useful tools for becoming more fluent in managing packages and dependencies for your web site.',
+      id: 'npmBower',
+      links: [{
+         button: 'Download Worksheet',
+         url: require('../../worksheets/Session11Worksheet.pdf')
+         },
+      {button: 'View Presentation',
+         url: 'https://kansascitywomenintechnology.github.io/npmAndBower'}]
+      },
+      {
       title: 'Programming Fundamentals',
       description: 'This session is all about programming fundamentals such as variables, arrays, functions and more! The session is taught using the JavaScript programming language.',
       id: 'programmingFundamentals',
       links: [{
          button: 'Download Worksheet',
          url: require('../../worksheets/Session11Worksheet.pdf')
-      },
-      {
+      },{
          button: 'View Presentation',
          url: 'http://kansascitywomenintechnology.github.io/JSProgrammingFundamentals'
       }] 
