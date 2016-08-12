@@ -101,11 +101,6 @@ function mentorCtrl() {
       title: 'Director of Curriculum',
       img: require('../../assets/images/mentors/kayla.jpeg'),
       twitter: 'bellafaith'
-   }, {
-      name: 'Melissa Salazar',
-      title: 'Webmaster',
-      img: require('../../assets/images/mentors/msalazar.png'),
-      twitter: 'msalazarkc'
    }]
 
    mvm.mentors = [{
@@ -121,7 +116,7 @@ function mentorCtrl() {
    }, {
       name: 'Tatiana Alexenko',
       title: 'Mentor',
-      img: require('../../assets/images/mentors/femalecodertocat.png'),
+      img: require('../../assets/images/mentors/tatiana.jpg'),
       twitter: 'codecocktailskc'
    }, {
       name: 'Gabi Dombrowski',
