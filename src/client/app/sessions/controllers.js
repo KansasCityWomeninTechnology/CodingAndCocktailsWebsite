@@ -17,7 +17,7 @@ function sessionsCtrl() {
       id: 'npmBower',
       links: [{
          button: 'Download Worksheet',
-         url: require('../../worksheets/Session11Worksheet.pdf')
+         url: require('../../worksheets/Session12Worksheet.pdf')
          },
       {button: 'View Presentation',
          url: 'https://kansascitywomenintechnology.github.io/npmAndBower'}]
