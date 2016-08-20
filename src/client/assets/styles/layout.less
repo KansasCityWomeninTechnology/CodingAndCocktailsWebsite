@@ -49,13 +49,19 @@ body {
     background: @dark-purple;
 }
 
-.navbar-nav {
-    .open {
-        a:hover {
-            background: @light-purple;
+.navbar-default {
+    .navbar-nav {
+        .open {
+            a:hover {
+                background: @light-purple;
+            }
+            a:focus {
+                background: @dark-purple;
+            }
         }
     }
 }
+
 
 section {
     min-height: 600px;
