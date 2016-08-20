@@ -15,14 +15,22 @@
             <li><a href="#programmingFundamentals">Programming Fundamentals</a></li>
             <li><a href="#review">Mid-Year Review</a></li>
             <li><a href="#jQuery">jQuery</a></li>
-            <li><a href="#cssCompilers">CSS Compilers</a></li>
-            <li><a href="#versionControl">Version Control</a></li>
-            <li><a href="#commandLine">Command Line</a></li>
-            <li><a href="#htmlCss">HTML &amp; CSS</a></li>
-            <li><a href="#devEnv">Development Environment</a></li>
-            <li><a href="#webConcepts">Web Concepts</a></li>
-            <li><a href="#jeckyllBlog">Jeckyll Blog</a></li>
-            <li><a href="#yeoman">Yeoman</a></li>
+            <!-- Simple dropdown -->
+            <li uib-dropdown on-toggle="toggled(open)">
+                <a href id="simple-dropdown" uib-dropdown-toggle>
+                    More <b class="caret"></b>
+                </a>
+                <ul class="dropdown dropdown-menu" uib-dropdown-menu role="menu" aria-labelledby="button-template-url">
+                    <li class="dropdown"><a href="#cssCompilers">CSS Compilers</a></li>
+                    <li class="dropdown"><a href="#versionControl">Version Control</a></li>
+                    <li class="dropdown"><a href="#commandLine">Command Line</a></li>
+                    <li class="dropdown"><a href="#htmlCss">HTML &amp; CSS</a></li>
+                    <li class="dropdown"><a href="#devEnv">Development Environment</a></li>
+                    <li class="dropdown"><a href="#webConcepts">Web Concepts</a></li>
+                    <li class="dropdown"><a href="#jeckyllBlog">Jeckyll Blog</a></li>
+                    <li class="dropdown"><a href="#yeoman">Yeoman</a></li>
+                </ul>
+            </li>
         </ul>
     </div>
 </nav>
