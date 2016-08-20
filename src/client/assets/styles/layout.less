@@ -45,6 +45,52 @@ body {
     }
 }
 
+.dropdown {
+    background: @dark-purple;
+}
+
+.navbar-default {
+    .navbar-nav {
+        @media (max-width: 767px) {
+            // Dropdowns get custom display when collapsed
+            .open .dropdown-menu {
+                > li > a {
+                    color: red;
+                    &:hover,
+                    &:focus {
+                        color: green;
+                        background-color: orange;
+                    }
+                }
+                > .active > a {
+                    &,
+                    &:hover,
+                    &:focus {
+                        color: yellow;
+                        background-color: blue;
+                    }
+                }
+                > .disabled > a {
+                    &,
+                    &:hover,
+                    &:focus {
+                        color: pink;
+                        background-color: magenta;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.navbar-nav {
+    .open {
+        a:hover {
+            background: @light-purple;
+        }
+    }
+}
+
 section {
     min-height: 600px;
     img {
