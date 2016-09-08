@@ -12,6 +12,17 @@ function sessionsCtrl() {
       }] 
       },
       {
+      title: 'Front-End Architecture',
+      description: 'So many files!  This session we will discuss front-end development project organization - often referred to as architecture.  This will help you understand where to place each file type in your projects.',
+      id: 'architecture',
+      links: [{
+         button: 'Download Worksheet',
+         url: require('../../worksheets/Session13Worksheet.pdf')
+         },
+      {button: 'View Presentation',
+         url: 'https://kansascitywomenintechnology.github.io/architecture'}]
+      },
+      {
       title: 'npm and Bower',
       description: 'This session is an introduction to node package manager and Bower, both useful tools for becoming more fluent in managing packages and dependencies for your web site.',
       id: 'npmBower',
