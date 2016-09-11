@@ -196,7 +196,7 @@ function topicCtrl () {
       topic: 'Introduction to Single Page Applications'
    }, {
       month: 'November 12th',
-      topic: 'TBD'
+      topic: 'Micro-Hackathon'
    }]
 }
 
