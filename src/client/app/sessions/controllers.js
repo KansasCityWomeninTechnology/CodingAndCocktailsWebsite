@@ -12,6 +12,17 @@ function sessionsCtrl() {
       }] 
       },
       {
+      title: 'Single-Page Applications',
+      description: 'In this session we explore uses for AngularJS in building a trivia app.',
+      id: 'spas',
+links: [{
+         button: 'Download Worksheet',
+         url: require('../../worksheets/Session14Worksheet.pdf')
+         },
+      {button: 'View Presentation',
+         url: 'https://kansascitywomenintechnology.github.io/spas'}]
+      },
+      {
       title: 'Front-End Architecture',
       description: 'So many files!  This session we will discuss front-end development project organization - often referred to as architecture.  This will help you understand where to place each file type in your projects.',
       id: 'architecture',
