@@ -101,7 +101,12 @@ function mentorCtrl() {
       title: 'Director of Curriculum',
       img: require('../../assets/images/mentors/kayla.jpeg'),
       twitter: 'bellafaith'
-   }]
+   }, {
+      name: 'Lyndsey Padget',
+      title: 'Presentation Director',
+      img: require('../../assets/images/mentors/lyndsey.jpg'),
+      twitter: 'lyndseypadget'
+   }, ]
 
    mvm.mentors = [{
       name: 'Heather Birdwell',
@@ -138,11 +143,6 @@ function mentorCtrl() {
       title: 'Mentor',
       img: require('../../assets/images/mentors/sara.jpg'),
       twitter: 'theheins57'
-   }, {
-      name: 'Lyndsey Padget',
-      title: 'Mentor',
-      img: require('../../assets/images/mentors/lyndsey.jpg'),
-      twitter: 'lyndseypadget'
    }, {
       name: 'Kate Nielsen',
       title: 'Mentor',
