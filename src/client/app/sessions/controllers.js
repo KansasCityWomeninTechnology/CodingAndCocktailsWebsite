@@ -15,7 +15,7 @@ function sessionsCtrl() {
       {
       title: 'Cocktail Camp',
       description: 'In this session we will work in teams to build one of three different projects: a templated web site, use a Yeoman-scaffolded site or a single-page app.',
-      id: 'CocktailCamp',
+      id: 'cocktailCamp',
 links: [{
          button: 'Download Worksheet',
          url: require('../../worksheets/Session15Worksheet.pdf')
