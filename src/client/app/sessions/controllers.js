@@ -11,24 +11,28 @@ function sessionsCtrl() {
          url: require('../../worksheets/TheTools.pdf')
       }] 
       },
-
       {
       title: 'Cocktail Camp',
       description: 'In this session we will work in teams to build one of three different projects: a templated web site, use a Yeoman-scaffolded site or a single-page app.',
       id: 'cocktailCamp',
-links: [{
+      links: [{
          button: 'Download Worksheet',
          url: require('../../worksheets/Session15Worksheet.pdf')
-         },
-      {button: 'View Presentation',
-         url: 'https://kansascitywomenintechnology.github.io/CocktailCamp'}]
       },
-
+      {
+         button: 'View Presentation',
+         url: 'https://kansascitywomenintechnology.github.io/CocktailCamp'
+      },
+      {
+         button: 'Cloud 9 Instructions',
+         url: require('../../worksheets/Session15Cloud9.pdf')
+      }]
+      },
       {
       title: 'Single-Page Applications',
       description: 'In this session we explore uses for AngularJS in building a trivia app.',
       id: 'spas',
-links: [{
+      links: [{
          button: 'Download Worksheet',
          url: require('../../worksheets/Session14Worksheet.pdf')
          },
