@@ -165,37 +165,37 @@ function topicCtrl () {
    let tvm = this;
 
    tvm.topics = [{
-      month: 'January 9th',
-      topic: 'Introduction to HTML & CSS'
+      month: 'January 14th',
+      topic: 'Introduction to HTML'
    }, {
-      month: 'February 13th',
+      month: 'February 11th',
+      topic: 'Introduction to CSS'
+   }, {
+      month: 'March 11th',
       topic: 'Introduction to Command Line'
    }, {
-      month: 'March 12th',
-      topic: 'Introduction to Git and Version Control'
+      month: 'April 8th',
+      topic: 'Introction to Version Control'
    }, {
-      month: 'April 9th',
+      month: 'May 13th',
       topic: 'Introduction to CSS Compilers'
    }, {
-      month: 'May 14th',
-      topic: 'Introduction to JavaScript through jQuery'
+      month: 'June 10th',
+      topic: 'Introduction to DOM Manipulation with jQuery'
    }, {
-      month: 'June 11th',
-      topic: 'Review, Practice & Work Session'
+      month: 'July 8th',
+      topic: 'Programming Fundamentals with JavaScript'
    }, {
-      month: 'July 9th',
-      topic: 'Programming Fundamentals'
+      month: 'August 12th',
+      topic: 'Introduction to Package Managers'
    }, {
-      month: 'August 13th',
-      topic: 'Introduction to NPM and Bower'
+      month: 'September 9th',
+      topic: 'Introduction to Front End Architecture'
    }, {
-      month: 'September 10th',
-      topic: 'Introduction to Front-End Architecture'
-   }, {
-      month: 'October 8th',
+      month: 'October 14th',
       topic: 'Introduction to Single Page Applications'
    }, {
-      month: 'November 12th',
+      month: 'November 11th',
       topic: 'Micro-Hackathon'
    }]
 }
