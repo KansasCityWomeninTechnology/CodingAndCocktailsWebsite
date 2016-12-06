@@ -9,11 +9,11 @@ function homeCtrl() {
       url: 'http://nerdery.com',
       address: '100 E 7 St #401, Kansas City, MO 64106'
    }
-   hvm.map = { 
-      center: { 
-         latitude: 39.105692, 
-         longitude: -94.581287 
-      }, 
+   hvm.map = {
+      center: {
+         latitude: 39.105692,
+         longitude: -94.581287
+      },
       zoom: 15,
       marker: {
          id:0,
@@ -30,11 +30,11 @@ function homeCtrl() {
    //    url: 'http://vml.com',
    //    address: '250 Richards Rd, Kansas City, MO 64116'
    // }
-   // hvm.map = { 
-   //    center: { 
-   //       latitude: 39.1206253, 
-   //       longitude: -94.5927612 
-   //    }, 
+   // hvm.map = {
+   //    center: {
+   //       latitude: 39.1206253,
+   //       longitude: -94.5927612
+   //    },
    //    zoom: 15,
    //    marker: {
    //       id:0,
@@ -175,7 +175,7 @@ function topicCtrl () {
       topic: 'Introduction to Command Line'
    }, {
       month: 'April 8th',
-      topic: 'Introction to Version Control'
+      topic: 'Introduction to Version Control'
    }, {
       month: 'May 13th',
       topic: 'Introduction to CSS Compilers'
