@@ -84,12 +84,12 @@ function mentorCtrl() {
    mvm.leaders = [{
       name: 'Sarah Duitsman',
       title: 'Director',
-      img: require('../../assets/images/mentors/sarahd.jpg'),
+      img: require('../../assets/images/mentors/sarah.png'),
       twitter: 'skduits'
    }, {
       name: 'Tamara Copple',
       title: 'Co-Director',
-      img: require('../../assets/images/mentors/tamarac.png'),
+      img: require('../../assets/images/mentors/tamara.png'),
       twitter: 'Ceiligirl72'
    }, {
       name: 'Jennifer Wadella',
@@ -98,13 +98,13 @@ function mentorCtrl() {
       twitter: 'likeOMGitsFEDAY'
    }, {
       name: 'Kayla Hennegin',
-      title: 'Director of Curriculum',
-      img: require('../../assets/images/mentors/kayla.jpeg'),
+      title: 'Curriculum Director',
+      img: require('../../assets/images/mentors/kayla.png'),
       twitter: 'bellafaith'
    }, {
       name: 'Lyndsey Padget',
       title: 'Presentation Director',
-      img: require('../../assets/images/mentors/lyndsey.jpg'),
+      img: require('../../assets/images/mentors/lyndsey.png'),
       twitter: 'lyndseypadget'
    }, ]
 
@@ -178,19 +178,19 @@ function topicCtrl () {
       topic: 'Introduction to Version Control'
    }, {
       month: 'May 13th',
-      topic: 'Introduction to CSS Compilers'
+      topic: 'Introduction to Front End Architecture'
    }, {
       month: 'June 10th',
-      topic: 'Introduction to DOM Manipulation with jQuery'
+      topic: 'Programming Concepts 101: Intro to jQuery & JavaScript'
    }, {
       month: 'July 8th',
-      topic: 'Programming Fundamentals with JavaScript'
+      topic: 'Programming Concepts 102: A deeper dive into JavaScript'
    }, {
       month: 'August 12th',
       topic: 'Introduction to Package Managers'
    }, {
       month: 'September 9th',
-      topic: 'Introduction to Front End Architecture'
+      topic: 'Server-side APIs: Node.js, REST & SOAP'
    }, {
       month: 'October 14th',
       topic: 'Introduction to Single Page Applications'
@@ -199,8 +199,6 @@ function topicCtrl () {
       topic: 'Micro-Hackathon'
    }]
 }
-
-//January 2017: Basic Website Deployment
 
 export default angular.module('home.controllers', [])
    .controller('homeCtrl', homeCtrl)
