@@ -63,11 +63,11 @@ function codeCtrl() {
       name: 'Sass',
       url: 'http://sass-lang.com/',
       img: require('../../assets/images/logos/logo-sass.png')
-   }, {
+   },{
       name: 'Gulp',
       url: 'http://gulpjs.com/',
       img: require('../../assets/images/logos/gulp-2x.png')
-   }, {
+   },{
       name: 'Jekyll',
       url: 'http://jekyllrb.com/',
       img: require('../../assets/images/logos/jekyll-logo.png')
