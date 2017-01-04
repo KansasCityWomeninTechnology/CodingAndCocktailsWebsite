@@ -1,14 +1,12 @@
 <sessionnav></sessionnav>
 <hero></hero>
-<section ng-repeat="session in svm.sessions" id="{{session.id}}">
-    <div class="container">
-        <div class="col-md-4">
-            <a class="btn btn-default" ng-repeat="link in session.links" href="{{link.url}}" target="_blank" >{{link.button}}</a>
-        </div>
-        <div class="col-md-8">
-            <h4>{{session.title}}</h4>
-            <h5>{{session.description}}</h5>
-        </div>
-    </div>
+<p>Install the Tools</p>
+<p><a href="http://bit.ly/CnCTheTools">http://bit.ly/CnCTheTools</a></p>
+<br>
+<a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank"><img src="../assets/images/logos/chrome.png" width="200"/></a>
+<a href="https://atom.io/" target="_blank"><img src="../../assets/images/logos/atom.png" width="200"/></a>
+<a href="https://git-scm.com/downloads" target="_blank"><img src="../assets/images/logos/git.png" width="200"/></a>
+<a href="https://www.iterm2.com/" target="_blank"><img src="../assets/images/logos/terminal.png" width="200" style="margin: 0 0 25px 10px"/></a>
 </section>
+<sessionlist></sessionlist>
 <contact></contact>
