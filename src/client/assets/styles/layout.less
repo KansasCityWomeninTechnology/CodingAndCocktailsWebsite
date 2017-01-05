@@ -32,8 +32,14 @@ body {
     text-align: center;
     border: none;
     clear:  both;
+    display: inline-block;
+    vertical-align: middle;
+    float: none !important;
     ul {
-        li {
+      float: none !important;
+      li {
+        float: none !important;
+        display: inline-block;
             a {
                 color: @white !important;
                 text-decoration: none;
@@ -44,6 +50,33 @@ body {
         }
     }
 }
+a.listlink {
+  color: #d0c675;
+  text-decoration: none; }
+
+a.listlink:hover {
+  color: #beb66d;
+  text-shadow: none;
+  border: none; }
+table.tocTable {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 75%;
+}
+.tocTable td {
+  padding: 8px;
+  font-size: 30px;
+  text-align: left;
+}
+.tocTable tr:nth-child(even) {
+  background: rgba(73, 78, 121, 0.8);
+}
+.tocTable tr:nth-child(odd) {
+  background: rgba(57, 62, 96, 0.8);
+}
 
 .dropdown {
     background: @dark-purple;
@@ -51,6 +84,15 @@ body {
 
 .navbar-default {
     .navbar-nav {
+        float: none !important;
+        ul {
+          float: none !important;
+          li {
+            float: none !important;
+            display: inline-block;
+            vertical-align: middle;
+          }
+        }
         .open {
             a:hover {
                 background: @light-purple;
@@ -98,7 +140,7 @@ section {
     }
 }
 
-#cocktails, #cocktailCamp, #npmBower, #jQuery, #commandLine, #webConcepts {
+#cocktails, #list {
     background: @plum;
     text-align: center;
     padding: 150px 0px 100px 0px;
@@ -117,8 +159,11 @@ section {
        background-size: contain;
     }
 }
+#list {
+  padding: 80px 0px 80px 0px;
+}
 
- #mentors, #spas, #programmingFundamentals, #cssCompilers, #htmlCss, #jeckyllBlog {
+ #mentors {
     background: @light-purple;
     text-align: center;
     padding: 150px 0px 100px 0px;
@@ -167,11 +212,10 @@ section {
         height: 300px;
     }
 
-#signup, #tools, #architecture, #review, #versionControl, #devEnv, #yeoman {
+#signup, #tools {
     background: @dark-olive;
     padding: 150px 0px 100px 0px;
     border-top: solid 10px @light-olive;
-    border-bottom: solid 10px @light-olive;
     text-align: center;
     ul {
         margin: 0px;
@@ -182,6 +226,11 @@ section {
         display: inline-block;
        margin: 10px auto;
     }
+}
+#tools {
+  border-bottom: solid 10px @light-olive;
+  padding: 80px 0px 60px 0px;
+  min-height: 400px;
 }
 
 /* Signup Styling */
@@ -196,7 +245,7 @@ iframe {
 
 #contact {
     background: @white;
-    padding: 150px 0px 100px 0px;
+    padding: 100px 0px 100px 0px;
     border-top: solid 10px @light-olive;
     border-bottom: solid 10px @light-olive;
     img {
