@@ -5,3 +5,4 @@ public
 .sass-cache
 app/bower_components
 test/bower_components
+.DS_Store

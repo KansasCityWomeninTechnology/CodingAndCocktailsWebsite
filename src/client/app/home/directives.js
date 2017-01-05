@@ -1,3 +1,9 @@
+function navbar() {
+   return {
+      template: require('./partials/navbar.html')
+   }
+}
+
 function hero() {
    return {
       template: require('./partials/hero.html')
@@ -26,7 +32,8 @@ function mentors() {
 
 function signup() {
    return {
-      template: require('./partials/signup.html')
+      template: require('./partials/signup.html'),
+      controller: 'topicCtrl as tvm'
    }
 }
 
@@ -37,6 +44,7 @@ function contact() {
 }
 
 export default angular.module('home.directives', [])
+   .directive('navbar', navbar)
    .directive('hero', hero)
    .directive('thecode', thecode)
    .directive('cocktails', cocktails)

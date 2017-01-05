@@ -9,7 +9,7 @@
         </div>
         <div class="row">
             <div class="col-md-5 map">
-                <h5>Proudly hosted by {{hvm.venue.name}}</h5>
+                <h5 id="hosting-venue">Proudly hosted by {{hvm.venue.name}}</h5>
                 <a href="{{hvm.venue.url}}" target="_blank" alt="{{hvm.venue.name}}" class="host">
                     <img src="{{hvm.venue.img}}" alt="{{hvm.venue.name}}">
                 </a>
@@ -19,27 +19,17 @@
                 </ui-gmap-google-map>
             </div>
             <div class="col-md-7">
-                <h5>Upcomming Session: January 9th, 2015 6-9pm
-                <br />(Intro to HTML & CSS!)</h5>
+                <h5>Upcoming Session: January 14, 2017 5-9pm
+                <br />(Introduction to HTML)</h5>
                 <p>Note: wifi-enabled laptops are required to attend!</p>
-                <div style="width:100%; text-align:left;" ><iframe  src="//eventbrite.com/tickets-external?eid=15848409018&ref=etckt" frameborder="0" height="280" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+                <div style="width:100%; text-align:left;"><iframe src="//eventbrite.com/tickets-external?eid=29037156918&ref=ccweb" frameborder="0" height="325" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="no" allowtransparency="true"></iframe></div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-12">
-               <h5>2016 Sessions</h5>
-               <ul class="list-unstyled">
-                    <li><b>January 9th</b> - Intro to HTML & CSS</li>
-                    <li><b>February 13th</b> - Basic Website Deployment</li>
-                    <li><b>March 12th</b> - Intro to Command Line</li>
-                    <li><b>April 9th</b> - Intro to GitHub & version control</li>
-                    <li><b>May 14th</b> - Intro to CSS compilers</li>
-                    <li><b>June 11th</b> - Intro to JavaScript through jQuery</li>
-                    <li><b>July 9th</b> - Intro to NPM, Bower, Yeoman, Gulp</li>
-                    <li><b>August 13th</b> - Intro to Single Page Applications & frameworks</li>
-                    <li><b>September 10th</b> - Intro to front-end architecture</li>
-                    <li><b>October 8th</b> - Intro to Node: server-side javascript</li>
-                    <li><b>November 12th</b> - Intro to REST</li>
+               <h5>2017 Sessions</h5>
+               <ul class="list-unstyled" ng-repeat="topic in tvm.topics">
+                    <li><b>{{topic.month}}</b> - {{topic.topic}}</li>
                 </ul>
             </div>
         </div>
