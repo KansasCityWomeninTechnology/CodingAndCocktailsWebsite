@@ -165,7 +165,7 @@ function topicCtrl () {
    let tvm = this;
 
    tvm.topics = [{
-      month: 'January 14th',
+      month: 'January 21st',
       topic: 'Introduction to HTML'
    }, {
       month: 'February 11th',
