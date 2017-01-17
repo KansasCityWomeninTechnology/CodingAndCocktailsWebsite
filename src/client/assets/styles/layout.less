@@ -1,0 +1,379 @@
+@white: #ffffff;
+@dark-purple: #484e78;
+@light-purple: #666b8f;
+@plum: #9d81a2;
+@light-plum: #ba99c0;
+@light-olive: #d0c675;
+@dark-olive: #beb66d;
+@teal: #009875;
+
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+    padding:0px;
+    margin:0px;
+    font-family: 'Lato', sans-serif;
+    color: @white;
+}
+
+.btn {
+    margin: .5em 0;
+}
+
+.nav {
+    background: @dark-purple;
+    text-align: center;
+    border: none;
+    clear:  both;
+    display: inline-block;
+    vertical-align: middle;
+    float: none !important;
+    ul {
+      float: none !important;
+      li {
+        float: none !important;
+        display: inline-block;
+            a {
+                color: @white !important;
+                text-decoration: none;
+                &.disabled {
+                    color: @light-purple !important;
+                }
+            }
+        }
+    }
+}
+a.listlink {
+  color: #d0c675;
+  text-decoration: none; }
+
+a.listlink:hover {
+  color: #beb66d;
+  text-shadow: none;
+  border: none; }
+table.tocTable {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 75%;
+}
+.tocTable td {
+  padding: 8px;
+  font-size: 30px;
+  text-align: left;
+}
+.tocTable tr:nth-child(even) {
+  background: rgba(73, 78, 121, 0.8);
+}
+.tocTable tr:nth-child(odd) {
+  background: rgba(57, 62, 96, 0.8);
+}
+
+.dropdown {
+    background: @dark-purple;
+}
+
+.navbar-default {
+    .navbar-nav {
+        float: none !important;
+        ul {
+          float: none !important;
+          li {
+            float: none !important;
+            display: inline-block;
+            vertical-align: middle;
+          }
+        }
+        .open {
+            a:hover {
+                background: @light-purple;
+            }
+            a:focus {
+                background: @dark-purple;
+            }
+        }
+    }
+}
+
+
+section {
+    min-height: 600px;
+    img {
+        width: 100%;
+    }
+}
+
+.margin-top {
+    margin-top: 60px;
+}
+
+#home {
+    background: @light-purple;
+    text-align: center;
+    padding: 150px 0px 100px 0px;
+
+    a.cocktails-logo {
+        display: block;
+       height: 300px;
+       width: 300px;
+       background: url(../images/logos/logo.png) no-repeat 0px 0px;
+       background-size: contain;
+    }
+}
+
+#code {
+    background: @dark-olive;
+    padding: 150px 0px 100px 0px;
+    border-top: solid 10px @light-olive;
+    border-bottom: solid 10px @light-olive;
+    img {
+        margin-top: 20px;
+    }
+}
+
+#cocktails, #list {
+    background: @plum;
+    text-align: center;
+    padding: 150px 0px 100px 0px;
+    border-top: solid 10px @light-plum;
+    border-bottom: solid 10px @light-plum;
+    img {
+        width: auto;
+    }
+    .cocktails {
+        display: block;
+       height: 200px;
+       width: 271px;
+       border: solid 5px #fff;
+       margin-top:20px;
+       background: url(../images/laura2.png) no-repeat 0px 0px;
+       background-size: contain;
+    }
+}
+#list {
+  padding: 80px 0px 80px 0px;
+}
+
+ #mentors {
+    background: @light-purple;
+    text-align: center;
+    padding: 150px 0px 100px 0px;
+    border-top: solid 10px @dark-purple;
+    border-bottom: solid 10px @dark-purple;
+    .mentor {
+        a {
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            overflow: hidden;
+            img {
+               width: 50%;
+            }
+        }
+
+    }
+    h1 {
+        margin-top: 20px;
+    }
+    .leader {
+         @media (min-width: 992px) {
+             width: 20%;
+         }
+         @media (min-width: 1200px) {
+             width: 20%;
+         }
+     }
+     .leader-row {
+         margin: 0 auto;
+
+
+         @media (min-width: 768px) {
+             width: 750px;
+         }
+         @media (min-width: 992px) {
+             width: 992px;
+         }
+         @media (min-width: 1170px) {
+             width: 1170px;
+         }
+     }
+}
+
+.angular-google-map-container {
+        height: 300px;
+    }
+
+#signup, #tools {
+    background: @dark-olive;
+    padding: 150px 0px 100px 0px;
+    border-top: solid 10px @light-olive;
+    text-align: center;
+    ul {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .host {
+        display: inline-block;
+       margin: 10px auto;
+    }
+}
+#tools {
+  border-bottom: solid 10px @light-olive;
+  padding: 80px 0px 60px 0px;
+  min-height: 400px;
+}
+
+/* Signup Styling */
+#hosting-venue {
+    margin-bottom: .2em;
+}
+
+iframe {
+    margin-top: 1em;
+    height: 360px;
+}
+
+#contact {
+    background: @white;
+    padding: 100px 0px 100px 0px;
+    border-top: solid 10px @light-olive;
+    border-bottom: solid 10px @light-olive;
+    img {
+        margin-bottom: 30px;
+    }
+    h4, h5, p{
+        color: @teal;
+    }
+
+    a.kcwit-logo {
+        display: block;
+       height: 300px;
+       width: 300px;
+       background: url(../images/logos/kcwit-logo.png) no-repeat 0px 0px;
+       background-size: contain;
+    }
+}
+
+#footer {
+    background: @dark-olive;
+    min-height: 50px;
+}
+
+.margin-bottom {
+    margin-bottom: 50px;
+}
+
+.map {
+    h5 {
+        border-bottom: 10px;
+    }
+    img {
+        margin-top: 0px;
+        height: 70px;
+        width: auto;
+    }
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+    border-bottom: 1px solid #e5e5e5;
+
+    /* Make the masthead heading the same height as the navigation */
+    h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 40px;
+        padding-bottom: 19px;
+    }
+}
+
+/* Custom page footer */
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+    .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+    }
+}
+
+/* Supporting marketing content */
+.marketing {
+    margin: 40px 0;
+    p + h4 {
+        margin-top: 28px;
+    }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 860px;
+    }
+
+    h2 {
+        font-weight: 300;
+    }
+
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
+
+#map-canvas {
+width: 300px;
+height: 300px;
+background-color: #CCC;
+}
+
+#mc_embed_signup{
+    background: #666b8f;
+    clear:left;
+}
+
+#mc_embed_signup input {
+    color: black;
+}
