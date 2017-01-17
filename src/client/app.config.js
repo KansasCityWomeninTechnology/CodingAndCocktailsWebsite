@@ -12,8 +12,8 @@ export default function appConfig($stateProvider, $locationProvider, $urlRouterP
       })
       .state('sessions', {
          url: '/sessions',
-         controller: 'sessionsCtrl as svm',
-         template: require('./app/sessions/views/sessions.html')
+         controller: 'homeCtrl as hvm',
+         template: require('./app/home/views/sessions.html')
       });
 
      uiGmapGoogleMapApiProvider.configure({
