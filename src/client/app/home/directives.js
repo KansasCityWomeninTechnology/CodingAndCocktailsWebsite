@@ -55,6 +55,17 @@ function tools() {
      template: require('./partials/tools.html')
   }
 }
+function scholarshipnav() {
+  return {
+     template: require('./partials/scholarshipnav.html')
+  }
+}
+function scholarship() {
+  return {
+     template: require('./partials/scholarship.html'),
+     controller: 'finaidCtrl as fvm'
+  }
+}
 
 export default angular.module('home.directives', [])
    .directive('navbar', navbar)
@@ -67,3 +78,5 @@ export default angular.module('home.directives', [])
    .directive('sessionnav', sessionnav)
    .directive('sessionlist', sessionlist)
    .directive('tools', tools)
+   .directive('scholarshipnav', scholarshipnav)
+   .directive('scholarship', scholarship)
