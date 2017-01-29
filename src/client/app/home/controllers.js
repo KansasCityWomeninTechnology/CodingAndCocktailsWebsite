@@ -3,47 +3,47 @@
 function homeCtrl() {
    let hvm = this;
    //The Nerdery
-   hvm.venue = {
-      name: 'The Nerdery',
-      img: require('../../assets/images/logos/Nerdery-logo.png'),
-      url: 'http://nerdery.com',
-      address: '100 E 7 St #401, Kansas City, MO 64106'
+  //  hvm.venue = {
+  //     name: 'The Nerdery',
+  //     img: require('../../assets/images/logos/Nerdery-logo.png'),
+  //     url: 'http://nerdery.com',
+  //     address: '100 E 7 St #401, Kansas City, MO 64106'
+  //  }
+  //  hvm.map = {
+  //     center: {
+  //        latitude: 39.105692,
+  //        longitude: -94.581287
+  //     },
+  //     zoom: 15,
+  //     marker: {
+  //        id:0,
+  //        coords: {
+  //           latitude: 39.105692,
+  //           longitude: -94.581287
+  //        }
+  //     }
+  //  };
+   //VML
+    hvm.venue = {
+      name: 'VML',
+      img: require('../../assets/images/logos/VML-logo.png'),
+      url: 'http://vml.com',
+      address: '250 Richards Rd, Kansas City, MO 64116'
    }
    hvm.map = {
       center: {
-         latitude: 39.105692,
-         longitude: -94.581287
+         latitude: 39.1206253,
+         longitude: -94.5927612
       },
       zoom: 15,
       marker: {
          id:0,
          coords: {
-            latitude: 39.105692,
-            longitude: -94.581287
+            latitude: 39.1206253,
+            longitude: -94.5927612
          }
       }
    };
-   //VML
-   //  hvm.venue = {
-   //    name: 'VML',
-   //    img: require('../../assets/images/logos/VML-logo.png'),
-   //    url: 'http://vml.com',
-   //    address: '250 Richards Rd, Kansas City, MO 64116'
-   // }
-   // hvm.map = {
-   //    center: {
-   //       latitude: 39.1206253,
-   //       longitude: -94.5927612
-   //    },
-   //    zoom: 15,
-   //    marker: {
-   //       id:0,
-   //       coords: {
-   //          latitude: 39.1206253,
-   //          longitude: -94.5927612
-   //       }
-   //    }
-   // };
 
 }
 
@@ -67,14 +67,6 @@ function codeCtrl() {
       name: 'Gulp',
       url: 'http://gulpjs.com/',
       img: require('../../assets/images/logos/gulp-2x.png')
-   },{
-      name: 'Jekyll',
-      url: 'http://jekyllrb.com/',
-      img: require('../../assets/images/logos/jekyll-logo.png')
-   }, {
-      name: 'Bundler',
-      url: 'http://bundler.io/',
-      img: require('../../assets/images/logos/gembundler.png')
    }]
 }
 
@@ -200,8 +192,22 @@ function topicCtrl () {
    }]
 }
 
+function finaidCtrl() {
+   let fvm = this;
+   fvm.logos = [{
+      name: 'Kansas City Women in Technology',
+      url: 'http://kcwomenintech.org/',
+      img: require('../../assets/images/logos/kcwit_logo_white.png')
+   },{
+      name: 'Github',
+      url: 'https://github.com/',
+      img: require('../../assets/images/logos/GitHub_Logo.png')
+   },]
+}
+
 export default angular.module('home.controllers', [])
    .controller('homeCtrl', homeCtrl)
    .controller('codeCtrl', codeCtrl)
    .controller('mentorCtrl', mentorCtrl)
-   .controller('topicCtrl', topicCtrl);
+   .controller('topicCtrl', topicCtrl)
+   .controller('finaidCtrl', finaidCtrl);
