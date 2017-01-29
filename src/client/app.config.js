@@ -15,10 +15,10 @@ export default function appConfig($stateProvider, $locationProvider, $urlRouterP
          controller: 'homeCtrl as hvm',
          template: require('./app/home/views/sessions.html')
       })
-      .state('scholarships', {
-        url: '/scholarships',
+      .state('financialaid', {
+        url: '/financialaid',
         controller: 'homeCtrl as hvm',
-        template: require('./app/home/views/scholarships.html')
+        template: require('./app/home/views/financialaids.html')
       });
 
      uiGmapGoogleMapApiProvider.configure({

@@ -55,14 +55,14 @@ function tools() {
      template: require('./partials/tools.html')
   }
 }
-function scholarshipnav() {
+function financialaidnav() {
   return {
-     template: require('./partials/scholarshipnav.html')
+     template: require('./partials/financialaidnav.html')
   }
 }
-function scholarship() {
+function financialaid() {
   return {
-     template: require('./partials/scholarship.html'),
+     template: require('./partials/financialaid.html'),
      controller: 'finaidCtrl as fvm'
   }
 }
@@ -78,5 +78,5 @@ export default angular.module('home.directives', [])
    .directive('sessionnav', sessionnav)
    .directive('sessionlist', sessionlist)
    .directive('tools', tools)
-   .directive('scholarshipnav', scholarshipnav)
-   .directive('scholarship', scholarship)
+   .directive('financialaidnav', financialaidnav)
+   .directive('financialaid', financialaid)
