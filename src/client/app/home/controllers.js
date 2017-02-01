@@ -98,7 +98,12 @@ function mentorCtrl() {
       title: 'Presentation Director',
       img: require('../../assets/images/mentors/lyndsey.png'),
       twitter: 'lyndseypadget'
-   }, ]
+   }, {
+      name: 'Gabi Dombrowski',
+      title: 'Mentor Director',
+      img: require('../../assets/images/mentors/gabi.jpg'),
+      twitter: 'gabdom'
+   }]
 
    mvm.mentors = [{
       name: 'Heather Birdwell',
@@ -115,11 +120,6 @@ function mentorCtrl() {
       title: 'Mentor',
       img: require('../../assets/images/mentors/tatiana.jpg'),
       twitter: 'codecocktailskc'
-   }, {
-      name: 'Gabi Dombrowski',
-      title: 'Mentor',
-      img: require('../../assets/images/mentors/gabi.jpg'),
-      twitter: 'gabdom'
    }, {
       name: 'Ashley Sullins',
       title: 'Mentor',
