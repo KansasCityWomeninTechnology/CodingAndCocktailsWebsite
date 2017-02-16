@@ -3,47 +3,47 @@
 function homeCtrl() {
    let hvm = this;
    //The Nerdery
-  //  hvm.venue = {
-  //     name: 'The Nerdery',
-  //     img: require('../../assets/images/logos/Nerdery-logo.png'),
-  //     url: 'http://nerdery.com',
-  //     address: '100 E 7 St #401, Kansas City, MO 64106'
-  //  }
-  //  hvm.map = {
-  //     center: {
-  //        latitude: 39.105692,
-  //        longitude: -94.581287
-  //     },
-  //     zoom: 15,
-  //     marker: {
-  //        id:0,
-  //        coords: {
-  //           latitude: 39.105692,
-  //           longitude: -94.581287
-  //        }
-  //     }
-  //  };
-   //VML
-    hvm.venue = {
-      name: 'VML',
-      img: require('../../assets/images/logos/VML-logo.png'),
-      url: 'http://vml.com',
-      address: '250 Richards Rd, Kansas City, MO 64116'
+   hvm.venue = {
+      name: 'The Nerdery',
+      img: require('../../assets/images/logos/Nerdery-logo.png'),
+      url: 'http://nerdery.com',
+      address: '100 E 7 St #401, Kansas City, MO 64106'
    }
    hvm.map = {
       center: {
-         latitude: 39.1206253,
-         longitude: -94.5927612
+         latitude: 39.105692,
+         longitude: -94.581287
       },
       zoom: 15,
       marker: {
          id:0,
          coords: {
-            latitude: 39.1206253,
-            longitude: -94.5927612
+            latitude: 39.105692,
+            longitude: -94.581287
          }
       }
    };
+   //VML
+  //   hvm.venue = {
+  //     name: 'VML',
+  //     img: require('../../assets/images/logos/VML-logo.png'),
+  //     url: 'http://vml.com',
+  //     address: '250 Richards Rd, Kansas City, MO 64116'
+  //  }
+  //  hvm.map = {
+  //     center: {
+  //        latitude: 39.1206253,
+  //        longitude: -94.5927612
+  //     },
+  //     zoom: 15,
+  //     marker: {
+  //        id:0,
+  //        coords: {
+  //           latitude: 39.1206253,
+  //           longitude: -94.5927612
+  //        }
+  //     }
+  //  };
 
 }
 
@@ -158,37 +158,48 @@ function topicCtrl () {
 
    tvm.topics = [{
       month: 'January 21st',
-      topic: 'Introduction to HTML'
+      topic: 'Introduction to HTML',
+      url: 'https://www.eventbrite.com/e/coding-cocktails-january-tickets-29037156918?aff=ccweb'
    }, {
       month: 'February 11th',
-      topic: 'Introduction to CSS'
+      topic: 'Introduction to CSS',
+      url: 'https://www.eventbrite.com/e/coding-cocktails-february-tickets-30480758770?aff=ccweb'
    }, {
       month: 'March 11th',
-      topic: 'Introduction to Command Line'
+      topic: 'Introduction to Command Line',
+      url: 'https://www.eventbrite.com/e/coding-cocktails-march-tickets-30481416738?aff=ccweb'
    }, {
       month: 'April 8th',
-      topic: 'Introduction to Version Control'
+      topic: 'Introduction to Version Control',
+      url: 'https://www.eventbrite.com/e/coding-cocktails-april-tickets-31952765582?aff=ccweb'
    }, {
       month: 'May 13th',
-      topic: 'Introduction to Front End Architecture'
+      topic: 'Introduction to Front End Architecture',
+      url: 'https://www.eventbrite.com/e/coding-cocktails-may-tickets-31953355346?aff=ccweb'
    }, {
       month: 'June 10th',
-      topic: 'Programming Concepts 101: Intro to jQuery & JavaScript'
+      topic: 'Programming Concepts 101: Intro to jQuery & JavaScript',
+      url: 'https://www.eventbrite.com/e/coding-cocktails-june-tickets-31953829765?aff=ccweb'
    }, {
       month: 'July 8th',
-      topic: 'Programming Concepts 102: A deeper dive into JavaScript'
+      topic: 'Programming Concepts 102: A deeper dive into JavaScript',
+      url: 'http://kcwit.eventbrite.com/'
    }, {
       month: 'August 12th',
-      topic: 'Introduction to Package Managers'
+      topic: 'Introduction to Package Managers',
+      url: 'http://kcwit.eventbrite.com/'
    }, {
       month: 'September 9th',
-      topic: 'Server-side APIs: Node.js, REST & SOAP'
+      topic: 'Server-side APIs: Node.js, REST & SOAP',
+      url: 'http://kcwit.eventbrite.com/'
    }, {
       month: 'October 14th',
-      topic: 'Introduction to Single Page Applications'
+      topic: 'Introduction to Single Page Applications',
+      url: 'http://kcwit.eventbrite.com/'
    }, {
       month: 'November 11th',
-      topic: 'Micro-Hackathon'
+      topic: 'Micro-Hackathon',
+      url: 'http://kcwit.eventbrite.com/'
    }]
 }
 

@@ -19,17 +19,19 @@
                 </ui-gmap-google-map>
             </div>
             <div class="col-md-7">
-                <h5>Upcoming Session: February 11, 2017 5-9pm
-                <br />(Introduction to CSS)</h5>
+                <h5>Upcoming Session: March 11, 2017 5-9pm
+                <br />(Introduction to Command Line)</h5>
                 <p>Note: wifi-enabled laptops are required to attend!</p>
-                <div style="width:100%; text-align:left;"><iframe src="//eventbrite.com/tickets-external?eid=30480758770&ref=ccweb" frameborder="0" height="325" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="no" allowtransparency="true"></iframe></div>
+                <div style="width:100%; text-align:left;"><iframe src="//eventbrite.com/tickets-external?eid=30481416738&ref=ccweb" frameborder="0" height="325" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="no" allowtransparency="true"></iframe></div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-12">
                <h5>2017 Sessions</h5>
+               <p>Click on the event topic to sign up.</p>
+               <p>If the event is not yet available for sign ups, you will be directed to the Kansas City Women in Technology Eventbrite page.</p>
                <ul class="list-unstyled" ng-repeat="topic in tvm.topics">
-                    <li><b>{{topic.month}}</b> - {{topic.topic}}</li>
+                    <li><b>{{topic.month}}</b> - <a href="{{topic.url}}" target="_blank">{{topic.topic}}</a></li>
                 </ul>
             </div>
         </div>
