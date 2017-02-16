@@ -159,11 +159,11 @@ function topicCtrl () {
    tvm.topics = [{
       month: 'January 21st',
       topic: 'Introduction to HTML',
-      url: 'http://kcwit.eventbrite.com/'
+      url: 'https://www.eventbrite.com/e/coding-cocktails-january-tickets-29037156918?aff=ccweb'
    }, {
       month: 'February 11th',
       topic: 'Introduction to CSS',
-      url: 'http://kcwit.eventbrite.com/'
+      url: 'https://www.eventbrite.com/e/coding-cocktails-february-tickets-30480758770?aff=ccweb'
    }, {
       month: 'March 11th',
       topic: 'Introduction to Command Line',
