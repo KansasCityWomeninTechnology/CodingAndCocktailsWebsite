@@ -111,11 +111,6 @@ function mentorCtrl() {
       img: require('../../assets/images/mentors/heather.jpg'),
       twitter: 'kcbusymom'
    }, {
-      name: 'Sharyl Bressette',
-      title: 'Mentor',
-      img: require('../../assets/images/mentors/femalecodertocat.png'),
-      twitter: 'codecocktailskc'
-   }, {
       name: 'Tatiana Alexenko',
       title: 'Mentor',
       img: require('../../assets/images/mentors/tatiana.jpg'),
@@ -126,30 +121,10 @@ function mentorCtrl() {
       img: require('../../assets/images/mentors/ashley.jpeg'),
       twitter: 'ashleycc87'
    }, {
-      name: 'Kelsey Leftwich',
-      title: 'Mentor',
-      img: require('../../assets/images/mentors/kelsey.jpg'),
-      twitter: 'kelseyleftwich'
-   }, {
       name: 'Sara Heins',
       title: 'Mentor',
       img: require('../../assets/images/mentors/sara.jpg'),
       twitter: 'theheins57'
-   }, {
-      name: 'Kate Nielsen',
-      title: 'Mentor',
-      img: require('../../assets/images/mentors/katen.jpeg'),
-      twitter: 'KateNielsenkate'
-   }, {
-      name: 'Amy Kurtz',
-      title: 'Mentor',
-      img: require('../../assets/images/mentors/amy.jpg'),
-      twitter: 'amyontheweb'
-   }, {
-      name: 'Thuy Copeland',
-      title: 'Mentor',
-      img: require('../../assets/images/mentors/thuyc.jpg'),
-      twitter: 'mindgraffiti'
    }]
 }
 
