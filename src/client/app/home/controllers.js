@@ -125,6 +125,26 @@ function mentorCtrl() {
       title: 'Mentor',
       img: require('../../assets/images/mentors/sara.jpg'),
       twitter: 'theheins57'
+   }, {
+      name: 'Miranda Pearson',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/octocat-de-los-muertos.jpg'),
+      twitter: 'codecocktailskc'
+   }, {
+      name: 'Ashley Holbrook',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/ashleyh.jpg'),
+      twitter: 'ultralovets'
+   }, {
+      name: 'Emma Bukacek',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/emma.jpg'),
+      twitter: 'theheins57'
+   }, {
+      name: 'Amy Norris',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/amy.jpg'),
+      twitter: 'amynorris'
    }]
 }
 
