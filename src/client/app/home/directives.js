@@ -55,6 +55,11 @@ function tools() {
      template: require('./partials/tools.html')
   }
 }
+function resources() {
+  return {
+     template: require('./partials/resources.html')
+  }
+}
 function financialaidnav() {
   return {
      template: require('./partials/financialaidnav.html')
@@ -78,5 +83,6 @@ export default angular.module('home.directives', [])
    .directive('sessionnav', sessionnav)
    .directive('sessionlist', sessionlist)
    .directive('tools', tools)
+   .directive('resources', resources)
    .directive('financialaidnav', financialaidnav)
    .directive('financialaid', financialaid)

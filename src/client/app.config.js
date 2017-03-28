@@ -10,10 +10,10 @@ export default function appConfig($stateProvider, $locationProvider, $urlRouterP
          controller: 'homeCtrl as hvm',
          template: require('./app/home/views/home.html')
       })
-      .state('sessions', {
-         url: '/sessions',
+      .state('resources', {
+         url: '/resources',
          controller: 'homeCtrl as hvm',
-         template: require('./app/home/views/sessions.html')
+         template: require('./app/home/views/resources.html')
       })
       .state('financialaid', {
         url: '/financialaid',
