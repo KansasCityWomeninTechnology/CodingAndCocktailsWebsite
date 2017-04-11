@@ -145,6 +145,11 @@ function mentorCtrl() {
       title: 'Mentor',
       img: require('../../assets/images/mentors/amy.jpg'),
       twitter: 'amynorris'
+   }, {
+      name: 'Rachel Hathaway',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/rachel.jpg'),
+      twitter: 'codecocktailskc'
    }]
 }
 
