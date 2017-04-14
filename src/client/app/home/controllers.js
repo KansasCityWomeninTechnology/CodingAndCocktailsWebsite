@@ -183,15 +183,15 @@ function topicCtrl () {
    }, {
       month: 'July 8th',
       topic: 'Programming Concepts 102: A deeper dive into JavaScript',
-      url: 'http://kcwit.eventbrite.com/'
+      url: 'https://www.eventbrite.com/e/coding-cocktails-july-tickets-31963282037?aff=ccweb'
    }, {
       month: 'August 12th',
       topic: 'Introduction to Package Managers',
-      url: 'http://kcwit.eventbrite.com/'
+      url: 'https://www.eventbrite.com/e/coding-cocktails-august-tickets-33536480516?aff=ccweb'
    }, {
       month: 'September 9th',
       topic: 'Server-side APIs: Node.js, REST & SOAP',
-      url: 'http://kcwit.eventbrite.com/'
+      url: 'https://www.eventbrite.com/e/coding-cocktails-september-tickets-33536482522?aff=ccweb'
    }, {
       month: 'October 14th',
       topic: 'Introduction to Single Page Applications',
