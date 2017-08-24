@@ -6,4 +6,4 @@ public
 app/bower_components
 test/bower_components
 .DS_Store
-.log
+*.log

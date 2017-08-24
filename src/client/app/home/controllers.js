@@ -195,11 +195,11 @@ function topicCtrl () {
    }, {
       month: 'October 14th',
       topic: 'Introduction to Single Page Applications',
-      url: 'http://kcwit.eventbrite.com/'
+      url: 'https://www.eventbrite.com/e/coding-cocktails-october-tickets-37229892611?aff=ccweb'
    }, {
       month: 'November 11th',
       topic: 'Micro-Hackathon',
-      url: 'http://kcwit.eventbrite.com/'
+      url: 'https://www.eventbrite.com/e/coding-cocktails-november-tickets-37230099229?aff=ccweb'
    }]
 }
 
