@@ -79,11 +79,6 @@ function mentorCtrl() {
       img: require('../../assets/images/mentors/sarah.png'),
       twitter: 'skduits'
    }, {
-      name: 'Tamara Copple',
-      title: 'Co-Director',
-      img: require('../../assets/images/mentors/tamara.png'),
-      twitter: 'Ceiligirl72'
-   }, {
       name: 'Jennifer Wadella',
       title: 'Founder',
       img: require('../../assets/images/mentors/jennifer.png'),
@@ -106,6 +101,11 @@ function mentorCtrl() {
    }]
 
    mvm.mentors = [{
+      name: 'Tamara Copple',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/tamara.png'),
+      twitter: 'Ceiligirl72'
+   }, {
       name: 'Heather Birdwell',
       title: 'Mentor',
       img: require('../../assets/images/mentors/heather.jpg'),
