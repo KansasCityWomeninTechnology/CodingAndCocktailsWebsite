@@ -1,0 +1,79 @@
+// Navigation Styling
+.navbar-collapse.in {
+    overflow-y: hidden;
+}
+
+.navbar-style {
+    background-color: @dark-purple;
+    border-bottom: none;
+}
+
+nav ul li a {
+    color: @white;
+}
+
+.nav > li > a:hover {
+    background-color: @light-purple;
+    color: @white;
+}
+
+.container {
+    margin-top: 5px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: @light-purple;
+    color: @white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: @white;
+}
+
+.a-dropdown {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    text-align: center;
+
+    &:hover {
+        background-color: @light-purple;
+        color: @white;
+        text-decoration: none;
+    }
+
+    &:visited {
+        color: @white;
+        text-decoration: none;
+    }
+
+    &:active {
+        background-color: @light-purple;
+        text-decoration: none;
+    }
+
+    &:focus {
+        text-decoration: none;
+    }
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: @light-purple;
+    color: @white;
+}
+
+.dropdown-menu {
+    background-color: @dark-purple;
+    border-radius: 0;
+
+    li {
+        a {
+            color: @white;
+        
+            &:hover {
+                background-color: @light-purple;
+                color: @white;
+            }
+        }
+    }
+}

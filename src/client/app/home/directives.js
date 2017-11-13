@@ -1,6 +1,7 @@
 function navbar() {
    return {
-      template: require('./partials/navbar.html')
+      template: require('./partials/navbar.html'),
+      controller: 'navCtrl as nvm'
    }
 }
 function hero() {
@@ -40,11 +41,6 @@ function contact() {
       template: require('./partials/contact.html')
    }
 }
-function sessionnav() {
-  return {
-     template: require('./partials/sessionnav.html')
-  }
-}
 function sessionlist() {
   return {
      template: require('./partials/sessionlist.html')
@@ -60,15 +56,22 @@ function resources() {
      template: require('./partials/resources.html')
   }
 }
-function financialaidnav() {
-  return {
-     template: require('./partials/financialaidnav.html')
-  }
-}
 function financialaid() {
   return {
      template: require('./partials/financialaid.html'),
      controller: 'finaidCtrl as fvm'
+  }
+}
+function aboutdropdown() {
+  return {
+    template: require('./partials/aboutdropdown.html'),
+    controller: 'dropdownCtrl as dvm'
+  }
+}
+function resourcesdropdown() {
+  return {
+    template: require('./partials/resourcesdropdown.html'),
+    controller: 'dropdownCtrl as dvm'
   }
 }
 
@@ -80,9 +83,9 @@ export default angular.module('home.directives', [])
    .directive('mentors', mentors)
    .directive('signup', signup)
    .directive('contact', contact)
-   .directive('sessionnav', sessionnav)
    .directive('sessionlist', sessionlist)
    .directive('tools', tools)
    .directive('resources', resources)
-   .directive('financialaidnav', financialaidnav)
    .directive('financialaid', financialaid)
+   .directive('aboutdropdown', aboutdropdown)
+   .directive('resourcesdropdown', resourcesdropdown)

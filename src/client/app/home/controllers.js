@@ -211,9 +211,31 @@ function finaidCtrl() {
    },]
 }
 
+function navCtrl() {
+  let nvm = this;
+  nvm.isNavCollapsed = true;
+  nvm.isCollapsed = true;
+  nvm.isCollapsedHorizontal = false;
+}
+
+function dropdownCtrl() {
+  let dvm = this;
+  dvm.status = {
+    isopen: false
+  };
+
+  dvm.toggleDropdown = function($event) {
+    $event.preventDefault();
+    $event.stopPropagation();
+    dvm.status.isopen = !dvm.status.isopen;
+  };
+}
+
 export default angular.module('home.controllers', [])
    .controller('homeCtrl', homeCtrl)
    .controller('codeCtrl', codeCtrl)
    .controller('mentorCtrl', mentorCtrl)
    .controller('topicCtrl', topicCtrl)
-   .controller('finaidCtrl', finaidCtrl);
+   .controller('finaidCtrl', finaidCtrl)
+   .controller('navCtrl', navCtrl)
+   .controller('dropdownCtrl', dropdownCtrl);
