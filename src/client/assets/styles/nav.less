@@ -69,11 +69,23 @@ nav ul li a {
     li {
         a {
             color: @white;
-        
+
             &:hover {
                 background-color: @light-purple;
                 color: @white;
             }
         }
     }
+}
+
+.nav-justified>.dropdown .dropdown-menu {
+  float: none;
+  position: static;
+  width: 100%;
+
+  @media (min-width: 768px) {
+      float: left;
+      position: absolute;
+      width: auto;
+  }
 }
