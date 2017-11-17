@@ -64,9 +64,9 @@ function codeCtrl() {
       url: 'http://sass-lang.com/',
       img: require('../../assets/images/logos/logo-sass.png')
    },{
-      name: 'Gulp',
-      url: 'http://gulpjs.com/',
-      img: require('../../assets/images/logos/gulp-2x.png')
+      name: 'Angular',
+      url: 'https://angular.io/',
+      img: require('../../assets/images/logos/angular.png')
    }]
 }
 
@@ -152,49 +152,49 @@ function topicCtrl () {
    let tvm = this;
 
    tvm.topics = [{
-      month: 'January 21st',
+      month: 'January 13th',
       topic: 'Introduction to HTML',
-      url: 'https://www.eventbrite.com/e/coding-cocktails-january-tickets-29037156918?aff=ccweb'
-   }, {
-      month: 'February 11th',
+      url: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-html-tickets-39425679268?aff=ccweb'
+   },{
+      month: 'February 10th',
       topic: 'Introduction to CSS',
-      url: 'https://www.eventbrite.com/e/coding-cocktails-february-tickets-30480758770?aff=ccweb'
-   }, {
-      month: 'March 11th',
+      url: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-css-tickets-39470123201?aff=ccweb'
+   },{
+      month: 'March 10th',
       topic: 'Introduction to Command Line',
-      url: 'https://www.eventbrite.com/e/coding-cocktails-march-tickets-30481416738?aff=ccweb'
-   }, {
-      month: 'April 8th',
+      url: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-command-line-tickets-39470265627?aff=ccweb'
+   },{
+      month: 'April 14th',
       topic: 'Introduction to Version Control',
-      url: 'https://www.eventbrite.com/e/coding-cocktails-april-tickets-31952765582?aff=ccweb'
-   }, {
-      month: 'May 13th',
+      url: 'https://kcwit.eventbrite.com'
+   },{
+      month: 'May 12th',
       topic: 'Introduction to Front End Architecture',
-      url: 'https://www.eventbrite.com/e/coding-cocktails-may-tickets-31953355346?aff=ccweb'
-   }, {
-      month: 'June 10th',
-      topic: 'Programming Concepts 101: Intro to jQuery & JavaScript',
-      url: 'https://www.eventbrite.com/e/coding-cocktails-june-tickets-31953829765?aff=ccweb'
-   }, {
-      month: 'July 8th',
+      url: 'https://kcwit.eventbrite.com'
+   },{
+      month: 'June 9th',
+      topic: 'Programming Concepts 101: Introduction to JavaScript',
+      url: 'https://kcwit.eventbrite.com'
+   },{
+      month: 'July 14th',
       topic: 'Programming Concepts 102: A deeper dive into JavaScript',
-      url: 'https://www.eventbrite.com/e/coding-cocktails-july-tickets-31963282037?aff=ccweb'
-   }, {
-      month: 'August 12th',
+      url: 'https://kcwit.eventbrite.com'
+   },{
+      month: 'August 11th',
       topic: 'Introduction to Package Managers',
-      url: 'https://www.eventbrite.com/e/coding-cocktails-august-tickets-33536480516?aff=ccweb'
-   }, {
-      month: 'September 9th',
+      url: 'https://kcwit.eventbrite.com'
+   },{
+      month: 'September 8th',
       topic: 'Server-side APIs: Node.js, REST & SOAP',
-      url: 'https://www.eventbrite.com/e/coding-cocktails-september-tickets-33536482522?aff=ccweb'
-   }, {
-      month: 'October 14th',
+      url: 'https://kcwit.eventbrite.com'
+   },{
+      month: 'October 13th',
       topic: 'Introduction to Single Page Applications',
-      url: 'https://www.eventbrite.com/e/coding-cocktails-october-tickets-37229892611?aff=ccweb'
-   }, {
-      month: 'November 11th',
+      url: 'https://kcwit.eventbrite.com'
+   },{
+      month: 'November 10th',
       topic: 'Micro-Hackathon',
-      url: 'https://www.eventbrite.com/e/coding-cocktails-november-tickets-37230099229?aff=ccweb'
+      url: 'https://kcwit.eventbrite.com'
    }]
 }
 
