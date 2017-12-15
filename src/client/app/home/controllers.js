@@ -74,15 +74,20 @@ function mentorCtrl() {
    let mvm = this;
 
    mvm.leaders = [{
-      name: 'Sarah Duitsman',
-      title: 'Director',
-      img: require('../../assets/images/mentors/sarah.png'),
-      twitter: 'skduits'
-   }, {
       name: 'Jennifer Wadella',
       title: 'Founder',
       img: require('../../assets/images/mentors/jennifer.png'),
       twitter: 'likeOMGitsFEDAY'
+   }, {
+      name: 'Sarah Duitsman',
+      title: 'Program Director',
+      img: require('../../assets/images/mentors/sarah.png'),
+      twitter: 'skduits'
+   }, {
+      name: 'Kelly Winzer',
+      title: 'Program Co-Director',
+      img: require('../../assets/images/mentors/kelly.jpg'),
+      twitter: 'kellyreneewinz'
    }, {
       name: 'Kayla Hennegin',
       title: 'Curriculum Director',
@@ -98,6 +103,16 @@ function mentorCtrl() {
       title: 'Mentor Director',
       img: require('../../assets/images/mentors/gabi.jpg'),
       twitter: 'gabdom'
+   }, {
+      name: 'Alisa Duncan',
+      title: 'Technical Materials Director',
+      img: require('../../assets/images/mentors/alisa.jpg'),
+      twitter: 'AlisaDuncan'
+   }, {
+      name: 'Melissa Arroyo',
+      title: 'Marketing Director',
+      img: require('../../assets/images/mentors/melissa.jpg'),
+      twitter: 'Meivarpe'
    }]
 
    mvm.mentors = [{
@@ -105,11 +120,6 @@ function mentorCtrl() {
       title: 'Mentor',
       img: require('../../assets/images/mentors/tamara.png'),
       twitter: 'Ceiligirl72'
-   }, {
-      name: 'Heather Birdwell',
-      title: 'Mentor',
-      img: require('../../assets/images/mentors/heather.jpg'),
-      twitter: 'kcbusymom'
    }, {
       name: 'Tatiana Alexenko',
       title: 'Mentor',
