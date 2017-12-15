@@ -184,22 +184,12 @@ section {
     h1 {
         margin-top: 20px;
     }
-    .leader {
-         @media (min-width: 992px) {
-             width: 33%;
-         }
-     }
-     .leader-row {
-         margin: auto auto;
+}
 
-
-         @media (min-width: 768px) {
-             width: 750px;
-         }
-         @media (min-width: 992px) {
-             width: 750px;
-         }
-     }
+@media screen and (min-width: 992px) {
+    .leader:nth-last-child(2) {
+        margin-left: 17%;
+    }
 }
 
 .angular-google-map-container {
