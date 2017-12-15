@@ -19,7 +19,7 @@
             </div>
         </div>
         <div class="row margin-top" ng-repeat="mentors in mvm.mentors | chunkBy:4">
-            <div class="col-md-3 mentor mentor-center" ng-repeat="mentor in mentors">
+            <div class="col-md-3 mentor" ng-repeat="mentor in mentors">
                 <a href="http://www.twitter.com/{{mentor.twitter}}" target="_blank">
                     <img class="img-circle" src="{{mentor.img}}" alt="{{mentor.name}}"/>
                     <h6>{{mentor.name}}</h6>
