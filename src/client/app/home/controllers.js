@@ -176,35 +176,35 @@ function topicCtrl () {
    },{
       month: 'April 14th',
       topic: 'Introduction to Version Control',
-      url: 'https://kcwit.eventbrite.com'
+      url: 'http://codingandcocktailskc.eventbrite.com'
    },{
       month: 'May 12th',
       topic: 'Introduction to Front End Architecture',
-      url: 'https://kcwit.eventbrite.com'
+      url: 'http://codingandcocktailskc.eventbrite.com'
    },{
       month: 'June 9th',
       topic: 'Programming Concepts 101: Introduction to JavaScript',
-      url: 'https://kcwit.eventbrite.com'
+      url: 'http://codingandcocktailskc.eventbrite.com'
    },{
       month: 'July 14th',
       topic: 'Programming Concepts 102: A deeper dive into JavaScript',
-      url: 'https://kcwit.eventbrite.com'
+      url: 'http://codingandcocktailskc.eventbrite.com'
    },{
       month: 'August 11th',
       topic: 'Introduction to Package Managers',
-      url: 'https://kcwit.eventbrite.com'
+      url: 'http://codingandcocktailskc.eventbrite.com'
    },{
       month: 'September 8th',
       topic: 'Server-side APIs: Node.js, REST & SOAP',
-      url: 'https://kcwit.eventbrite.com'
+      url: 'http://codingandcocktailskc.eventbrite.com'
    },{
       month: 'October 13th',
       topic: 'Introduction to Single Page Applications',
-      url: 'https://kcwit.eventbrite.com'
+      url: 'http://codingandcocktailskc.eventbrite.com'
    },{
       month: 'November 10th',
       topic: 'Micro-Hackathon',
-      url: 'https://kcwit.eventbrite.com'
+      url: 'http://codingandcocktailskc.eventbrite.com'
    }]
 }
 
