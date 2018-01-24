@@ -155,6 +155,26 @@ function mentorCtrl() {
       title: 'Mentor',
       img: require('../../assets/images/mentors/muriel.jpg'),
       twitter: 'murlgreen1'
+   }, {
+      name: 'Annie Chan',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/dinotocat.jpg'),
+      twitter: ''
+   }, {
+      name: 'Heather Pekrul',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/saritocat.jpg'),
+      twitter: ''
+   }, {
+      name: 'Maroua Jawadi',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/mona-lovelace.jpg'),
+      twitter: ''
+   }, {
+      name: 'Stephanie Sammons',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/jetpacktocat.jpg'),
+      twitter: ''
    }]
 }
 
