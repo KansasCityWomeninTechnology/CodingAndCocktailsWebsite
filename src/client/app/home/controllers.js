@@ -158,12 +158,12 @@ function mentorCtrl() {
    }, {
       name: 'Annie Chan',
       title: 'Mentor',
-      img: require('../../assets/images/mentors/dinotocat.jpg'),
+      img: require('../../assets/images/mentors/dinotocat.png'),
       twitter: ''
    }, {
       name: 'Heather Pekrul',
       title: 'Mentor',
-      img: require('../../assets/images/mentors/saritocat.jpg'),
+      img: require('../../assets/images/mentors/saritocat.png'),
       twitter: ''
    }, {
       name: 'Maroua Jawadi',
@@ -173,7 +173,7 @@ function mentorCtrl() {
    }, {
       name: 'Stephanie Sammons',
       title: 'Mentor',
-      img: require('../../assets/images/mentors/jetpacktocat.jpg'),
+      img: require('../../assets/images/mentors/jetpacktocat.png'),
       twitter: ''
    }]
 }
