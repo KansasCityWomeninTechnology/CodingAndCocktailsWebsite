@@ -158,7 +158,7 @@ function mentorCtrl() {
    }, {
       name: 'Annie Chan',
       title: 'Mentor',
-      img: require('../../assets/images/mentors/dinotocat.png'),
+      img: require('../../assets/images/mentors/annie.jpg'),
       twitter: ''
    }, {
       name: 'Heather Pekrul',
@@ -168,7 +168,7 @@ function mentorCtrl() {
    }, {
       name: 'Maroua Jawadi',
       title: 'Mentor',
-      img: require('../../assets/images/mentors/mona-lovelace.jpg'),
+      img: require('../../assets/images/mentors/maroua.jpg'),
       twitter: ''
    }, {
       name: 'Stephanie Sammons',
