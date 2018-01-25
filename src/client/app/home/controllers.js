@@ -159,22 +159,22 @@ function mentorCtrl() {
       name: 'Annie Chan',
       title: 'Mentor',
       img: require('../../assets/images/mentors/annie.jpg'),
-      twitter: ''
+      twitter: 'codecocktailskc'
    }, {
       name: 'Heather Pekrul',
       title: 'Mentor',
       img: require('../../assets/images/mentors/saritocat.png'),
-      twitter: ''
+      twitter: 'codecocktailskc'
    }, {
       name: 'Maroua Jawadi',
       title: 'Mentor',
       img: require('../../assets/images/mentors/maroua.jpg'),
-      twitter: ''
+      twitter: 'codecocktailskc'
    }, {
       name: 'Stephanie Sammons',
       title: 'Mentor',
-      img: require('../../assets/images/mentors/jetpacktocat.png'),
-      twitter: ''
+      img: require('../../assets/images/mentors/stephanie.jpg'),
+      twitter: 'codecocktailskc'
    }]
 }
 
