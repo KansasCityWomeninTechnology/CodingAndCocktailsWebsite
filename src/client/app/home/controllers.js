@@ -94,11 +94,6 @@ function mentorCtrl() {
       img: require('../../assets/images/mentors/kayla.png'),
       twitter: 'bellafaith'
    }, {
-      name: 'Lyndsey Padget',
-      title: 'Presentation Director',
-      img: require('../../assets/images/mentors/lyndsey.png'),
-      twitter: 'lyndseypadget'
-   }, {
       name: 'Gabi Dombrowski',
       title: 'Mentor Director',
       img: require('../../assets/images/mentors/gabi.jpg'),
