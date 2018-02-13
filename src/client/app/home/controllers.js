@@ -94,11 +94,6 @@ function mentorCtrl() {
       img: require('../../assets/images/mentors/kayla.png'),
       twitter: 'bellafaith'
    }, {
-      name: 'Lyndsey Padget',
-      title: 'Presentation Director',
-      img: require('../../assets/images/mentors/lyndsey.png'),
-      twitter: 'lyndseypadget'
-   }, {
       name: 'Gabi Dombrowski',
       title: 'Mentor Director',
       img: require('../../assets/images/mentors/gabi.jpg'),
@@ -155,6 +150,26 @@ function mentorCtrl() {
       title: 'Mentor',
       img: require('../../assets/images/mentors/muriel.jpg'),
       twitter: 'murlgreen1'
+   }, {
+      name: 'Annie Chan',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/annie.jpg'),
+      twitter: 'codecocktailskc'
+   }, {
+      name: 'Heather Pekrul',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/saritocat.png'),
+      twitter: 'codecocktailskc'
+   }, {
+      name: 'Maroua Jawadi',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/maroua.jpg'),
+      twitter: 'codecocktailskc'
+   }, {
+      name: 'Stephanie Sammons',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/stephanie.jpg'),
+      twitter: 'codecocktailskc'
    }]
 }
 
