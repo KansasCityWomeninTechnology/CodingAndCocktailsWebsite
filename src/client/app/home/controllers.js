@@ -191,15 +191,15 @@ function topicCtrl () {
    },{
       month: 'April 14th',
       topic: 'Introduction to Version Control',
-      url: 'http://codingandcocktailskc.eventbrite.com'
+      url: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-version-control-tickets-42787776391?aff=ccweb'
    },{
       month: 'May 12th',
       topic: 'Introduction to Front End Architecture',
-      url: 'http://codingandcocktailskc.eventbrite.com'
+      url: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-front-end-architecture-tickets-44043474217?aff=ccweb'
    },{
       month: 'June 9th',
       topic: 'Programming Concepts 101: Introduction to JavaScript',
-      url: 'http://codingandcocktailskc.eventbrite.com'
+      url: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-javascript-tickets-44050656700?aff=ccweb'
    },{
       month: 'July 14th',
       topic: 'Programming Concepts 102: A deeper dive into JavaScript',
