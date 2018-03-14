@@ -158,7 +158,7 @@ function mentorCtrl() {
    }, {
       name: 'Heather Pekrul',
       title: 'Mentor',
-      img: require('../../assets/images/mentors/saritocat.png'),
+      img: require('../../assets/images/mentors/heatherp.jpg'),
       twitter: 'codecocktailskc'
    }, {
       name: 'Maroua Jawadi',
@@ -169,6 +169,16 @@ function mentorCtrl() {
       name: 'Stephanie Sammons',
       title: 'Mentor',
       img: require('../../assets/images/mentors/stephanie.jpg'),
+      twitter: 'codecocktailskc'
+   }, {
+      name: 'Rhia Dixon',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/rhia.jpg'),
+      twitter: 'TheFakeRiRi'
+   }, {
+      name: 'Stacey Adams',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/stacey.jpg'),
       twitter: 'codecocktailskc'
    }]
 }
