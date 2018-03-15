@@ -159,7 +159,7 @@ function mentorCtrl() {
       name: 'Heather Pekrul',
       title: 'Mentor',
       img: require('../../assets/images/mentors/heatherp.jpg'),
-      twitter: 'codecocktailskc'
+      twitter: 'heatherpekrul'
    }, {
       name: 'Maroua Jawadi',
       title: 'Mentor',
