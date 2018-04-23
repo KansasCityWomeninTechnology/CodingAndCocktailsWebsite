@@ -2,28 +2,52 @@
 
 function homeCtrl() {
    let hvm = this;
+
    //The Nerdery
-   hvm.venue = {
-      name: 'The Nerdery',
-      img: require('../../assets/images/logos/Nerdery-logo.png'),
-      url: 'http://nerdery.com',
-      address: '100 E 7 St #401, Kansas City, MO 64106'
-   }
-   hvm.map = {
+  hvm.venue = {
+    name: 'Service Management Group',
+    img: require('../../assets/images/logos/smg.png'),
+    url: 'https://www.smg.com/',
+    address: '1737 McGee St, Kansas City, MO 64108'
+  }
+  hvm.map = {
       center: {
-         latitude: 39.105692,
-         longitude: -94.581287
+        latitude: 39.091890,
+        longitude: -94.579773
       },
       zoom: 15,
       marker: {
-         id:0,
-         coords: {
-            latitude: 39.105692,
-            longitude: -94.581287
-         }
+        id:0,
+        coords: {
+            latitude: 39.091890,
+            longitude: -94.579773
+        }
       }
-   };
-   //VML
+  };
+
+  //The Nerdery
+  // hvm.venue = {
+  //   name: 'The Nerdery',
+  //   img: require('../../assets/images/logos/Nerdery-logo.png'),
+  //   url: 'http://nerdery.com',
+  //   address: '100 E 7 St #401, Kansas City, MO 64106'
+  // }
+  // hvm.map = {
+  //   center: {
+  //       latitude: 39.105692,
+  //       longitude: -94.581287
+  //   },
+  //   zoom: 15,
+  //   marker: {
+  //       id:0,
+  //       coords: {
+  //         latitude: 39.105692,
+  //         longitude: -94.581287
+  //       }
+  //   }
+  // };
+
+  //VML
   //   hvm.venue = {
   //     name: 'VML',
   //     img: require('../../assets/images/logos/VML-logo.png'),
