@@ -120,17 +120,19 @@ function mentorCtrl() {
       title: 'Mentor',
       img: require('../../assets/images/mentors/tatiana.jpg'),
       twitter: 'codecocktailskc'
-   }, {
-      name: 'Ashley Sullins',
-      title: 'Mentor',
-      img: require('../../assets/images/mentors/ashley.jpeg'),
-      twitter: 'ashleycc87'
-   }, {
-      name: 'Sara Heins',
-      title: 'Mentor',
-      img: require('../../assets/images/mentors/sara.jpg'),
-      twitter: 'theheins57'
-   }, {
+   },
+   //{
+   //    name: 'Ashley Sullins',
+   //    title: 'Mentor',
+   //    img: require('../../assets/images/mentors/ashley.jpeg'),
+   //    twitter: 'ashleycc87'
+   // }, {
+   //    name: 'Sara Heins',
+   //    title: 'Mentor',
+   //    img: require('../../assets/images/mentors/sara.jpg'),
+   //    twitter: 'theheins57'
+   // },
+   {
       name: 'Ashley Holbrook',
       title: 'Mentor',
       img: require('../../assets/images/mentors/ashleyh.jpg'),
@@ -180,6 +182,11 @@ function mentorCtrl() {
       title: 'Mentor',
       img: require('../../assets/images/mentors/stacey.jpg'),
       twitter: 'codecocktailskc'
+   }, {
+      name: 'Melanie Garvey',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/mel.jpg'),
+      twitter: 'MelanieGarvey'
    }]
 }
 
