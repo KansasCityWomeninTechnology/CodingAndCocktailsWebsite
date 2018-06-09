@@ -244,15 +244,15 @@ function topicCtrl () {
    },{
       month: 'July 14th',
       topic: 'Programming Concepts 102: A deeper dive into JavaScript',
-      url: 'http://codingandcocktailskc.eventbrite.com'
+      url: 'https://www.eventbrite.com/e/coding-cocktails-a-deeper-dive-into-javascript-tickets-46549034415?aff=ccweb'
    },{
       month: 'August 11th',
       topic: 'Introduction to Package Managers',
-      url: 'http://codingandcocktailskc.eventbrite.com'
+      url: 'https://www.eventbrite.com/e/coding-cocktails-introduction-to-package-managers-tickets-46599331856?aff=ccweb'
    },{
       month: 'September 8th',
       topic: 'Server-side APIs: Node.js, REST & SOAP',
-      url: 'http://codingandcocktailskc.eventbrite.com'
+      url: 'https://www.eventbrite.com/e/coding-cocktails-server-side-apis-tickets-46600665846?aff=ccweb'
    },{
       month: 'October 13th',
       topic: 'Introduction to Single Page Applications',
