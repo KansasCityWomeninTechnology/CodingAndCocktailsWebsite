@@ -211,6 +211,16 @@ function mentorCtrl() {
       title: 'Mentor',
       img: require('../../assets/images/mentors/mel.jpg'),
       twitter: 'MelanieGarvey'
+   }, {
+      name: 'Jenn Bono',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/jenn.jpg'),
+      twitter: 'jenn_bono24'
+   }, {
+      name: 'McKenzie Hine',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/mckenzie.jpg'),
+      twitter: 'mckenz_h'
    }]
 }
 
